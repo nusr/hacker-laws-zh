@@ -2,6 +2,5 @@
 
 合理使用翻墙工具。
 
-[lantern](https://github.com/getlantern/lantern) 每月有 500M 免费流量
-
-或者 [Shadowsocks](https://github.com/shadowsocks)，免费、付费可显神通！
+- [lantern](https://github.com/getlantern/lantern) 每月有 500M 免费流量
+- [Shadowsocks](https://github.com/shadowsocks)

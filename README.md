@@ -6,7 +6,9 @@
 
 为了方便阅读，维基百科增加了中文链接！
 
-[维基百科无法访问说明](gfw.md)
+英文链接主题，[hacker-laws](https://github.com/dwmkerr/hacker-laws) 项目尚未完成。
+
+[中国无法访问维基百科说明](gfw.md)
 
 喜欢点 **star** ，关注点 **watch**，贡献点 **fork** 。
 
@@ -49,8 +51,8 @@
 
 ### 阿姆达尔定律 (Amdahl's Law)
 
-[英文维基百科](https://en.wikipedia.org/wiki/Amdahl%27s_law)
-[中文维基百科](https://zh.wikipedia.org/wiki/%E9%98%BF%E5%A7%86%E8%BE%BE%E5%B0%94%E5%AE%9A%E5%BE%8B)
+- [英文维基百科](https://en.wikipedia.org/wiki/Amdahl%27s_law)
+- [中文维基百科](https://zh.wikipedia.org/wiki/%E9%98%BF%E5%A7%86%E8%BE%BE%E5%B0%94%E5%AE%9A%E5%BE%8B)
 
 > 阿姆达尔定律是一个显示计算任务**潜在加速**能力的公式。这种能力可以通过增加系统资源来实现。 通常用于并行计算中，它可以预测增加处理器数量的实际好处。增加处理器数量会受到程序并行性的限制。
 
@@ -60,7 +62,7 @@
 
 ![阿姆达尔定律](./images/amdahls_law.png)
 
-_(图片来源: Daniels220 上传到英文维基, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg)_
+_(图片来源: By Daniels220 at English Wikipedia, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg)_
 
 可以看出，50％ 并行化的程序仅仅受益于 10 个处理单元，而 95％ 并行化的程序可以通过超过一千个处理单元显著提升速度。
 
@@ -73,7 +75,7 @@ _(图片来源: Daniels220 上传到英文维基, Creative Commons Attribution-S
 
 ### 布鲁克斯法则 (Brooks's Law)
 
-[英文维基百科](https://en.m.wikipedia.org/wiki/Brooks%27s_law)
+- [英文维基百科](https://en.m.wikipedia.org/wiki/Brooks%27s_law)
 
 布鲁克斯是《人月神话》的作者。
 
@@ -89,8 +91,8 @@ _(图片来源: Daniels220 上传到英文维基, Creative Commons Attribution-S
 
 ### 康威定律 (Conway's Law)
 
-[英文维基百科](https://en.wikipedia.org/wiki/Conway%27s_law)
-[中文维基百科](https://zh.wikipedia.org/wiki/%E5%BA%B7%E5%A8%81%E5%AE%9A%E5%BE%8B)
+- [英文维基百科](https://en.wikipedia.org/wiki/Conway%27s_law)
+- [中文维基百科](https://zh.wikipedia.org/wiki/%E5%BA%B7%E5%A8%81%E5%AE%9A%E5%BE%8B)
 
 系统的技术边界受制于组织的结构。在改进组织时，通常会提到它。康威定律表明，如果一个组织被分散成许多小型、无联系的单元，那么它开发的软件也是小而分散的。 如果一个组织更多地垂直建立在特性或服务周围，那么软件系统也会反映这一点。
 
@@ -100,8 +102,8 @@ _(图片来源: Daniels220 上传到英文维基, Creative Commons Attribution-S
 
 ### 侯世达定律 (Hofstadter's Law)
 
-[英文维基百科](https://en.wikipedia.org/wiki/Hofstadter%27s_law)
-[中文维基百科](https://zh.wikipedia.org/wiki/%E4%BE%AF%E4%B8%96%E8%BE%BE%E5%AE%9A%E5%BE%8B)
+- [英文维基百科](https://en.wikipedia.org/wiki/Hofstadter%27s_law)
+- [中文维基百科](https://zh.wikipedia.org/wiki/%E4%BE%AF%E4%B8%96%E8%BE%BE%E5%AE%9A%E5%BE%8B)
 
 > 即使考虑到侯世达定律，它也总是比你预期的要长。
 
@@ -109,24 +111,24 @@ _(图片来源: Daniels220 上传到英文维基, Creative Commons Attribution-S
 
 ### 技术成熟度曲线 (The Hype Cycle & Amara's Law)
 
-[英文维基百科](https://en.wikipedia.org/wiki/Hype_cycle)
-[中文维基百科](https://zh.wikipedia.org/wiki/%E6%8A%80%E6%9C%AF%E6%88%90%E7%86%9F%E5%BA%A6%E6%9B%B2%E7%BA%BF)
+- [英文维基百科](https://en.wikipedia.org/wiki/Hype_cycle)
+- [中文维基百科](https://zh.wikipedia.org/wiki/%E6%8A%80%E6%9C%AF%E6%88%90%E7%86%9F%E5%BA%A6%E6%9B%B2%E7%BA%BF)
 
 > 我们倾向于过高估计技术在短期内的影响，并低估长期效应。
 >
 > (罗伊阿马拉)
 
-技术成熟度曲线是[高德纳咨询公司](https://zh.wikipedia.org/wiki/%E9%AB%98%E5%BE%B7%E7%BA%B3%E5%92%A8%E8%AF%A2%E5%85%AC%E5%8F%B8)最初制作的技术兴起和发展的直观表现。它最好用视觉显示：
+技术成熟度曲线是[高德纳咨询公司](https://zh.wikipedia.org/wiki/%E9%AB%98%E5%BE%B7%E7%BA%B3%E5%92%A8%E8%AF%A2%E5%85%AC%E5%8F%B8)最初制作的技术兴起和发展的直观表现。一图顶千言：
 
 ![The Hype Cycle](./images/gartner_hype_cycle.png)
 
-_(图片来源: Jeremykemp 上传到英文维基, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10547051)_
+_(图片来源: By Jeremykemp at English Wikipedia, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10547051)_
 
 简而言之，这个周期表明，新技术及其潜在影响通常会引发一阵浪潮。 团队快速使用这些新技术，有时会对结果感到失望。 这可能是因为该技术还不够成熟，或者现实应用还没有完全实现。 经过一段时间后，技术的能力提高了，使用它的实际机会会增加，最终团队可以提高工作效率。 罗伊·阿马拉简洁地总结了这一点：我们倾向于高估技术短期内的影响，并低估长期效应。
 
 ### 隐式接口定律 (Hyrum's Law)
 
-[在线地址](http://www.hyrumslaw.com/)
+- [英文在线地址](http://www.hyrumslaw.com/)
 
 > 有足够数量 API 的用户，
 > 你在合同中的承诺并不重要：
@@ -143,8 +145,8 @@ _(图片来源: Jeremykemp 上传到英文维基, CC BY-SA 3.0, https://commons.
 
 ### 摩尔定律 (Moore's Law)
 
-[英文维基百科](https://en.wikipedia.org/wiki/Moore%27s_law)
-[中文维基百科](https://zh.wikipedia.org/wiki/%E6%91%A9%E5%B0%94%E5%AE%9A%E5%BE%8B)
+- [英文维基百科](https://en.wikipedia.org/wiki/Moore%27s_law)
+- [中文维基百科](https://zh.wikipedia.org/wiki/%E6%91%A9%E5%B0%94%E5%AE%9A%E5%BE%8B)
 
 > 集成电路中的晶体管数量大约每两年翻一番。
 
@@ -152,8 +154,8 @@ _(图片来源: Jeremykemp 上传到英文维基, CC BY-SA 3.0, https://commons.
 
 ### 帕金森定理 (Parkinson's Law)
 
-[英文维基百科](https://en.wikipedia.org/wiki/Parkinson%27s_law)
-[中文维基百科](https://zh.wikipedia.org/wiki/%E5%B8%95%E9%87%91%E6%A3%AE%E5%AE%9A%E7%90%86)
+- [英文维基百科](https://en.wikipedia.org/wiki/Parkinson%27s_law)
+- [中文维基百科](https://zh.wikipedia.org/wiki/%E5%B8%95%E9%87%91%E6%A3%AE%E5%AE%9A%E7%90%86)
 
 > 在工作能够完成的时限内，工作量会一直增加，直到所有可用时间都被填充为止。
 
@@ -167,7 +169,7 @@ _(图片来源: Jeremykemp 上传到英文维基, CC BY-SA 3.0, https://commons.
 
 ### 普特定律 (Putt's Law)
 
-[英文维基百科](https://en.wikipedia.org/wiki/Putt%27s_Law_and_the_Successful_Technocrat)
+- [英文维基百科](https://en.wikipedia.org/wiki/Putt%27s_Law_and_the_Successful_Technocrat)
 
 > 技术由两类人主导，一类是管理人员， 一类是技术人员。
 
@@ -186,7 +188,7 @@ _(图片来源: Jeremykemp 上传到英文维基, CC BY-SA 3.0, https://commons.
 
 ### 复杂性守恒定律 (The Law of Conservation of Complexity)
 
-[英文维基百科](https://en.wikipedia.org/wiki/Law_of_conservation_of_complexity)
+- [英文维基百科](https://en.wikipedia.org/wiki/Law_of_conservation_of_complexity)
 
 该定律表明系统中存在着一定程度的复杂性，并且不能减少。
 
@@ -196,7 +198,7 @@ _(图片来源: Jeremykemp 上传到英文维基, CC BY-SA 3.0, https://commons.
 
 ### 漏洞抽象定律 (The Law of Leaky Abstractions)
 
-[在线地址](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
+- [英文在线地址](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
 
 > 在某种程度上，所有非平凡的抽象都是漏洞。
 >
@@ -220,8 +222,8 @@ _(图片来源: Jeremykemp 上传到英文维基, CC BY-SA 3.0, https://commons.
 
 ### 帕金森琐碎定理 (The Law of Triviality)
 
-[英文维基百科](https://en.wikipedia.org/wiki/Law_of_triviality)
-[中文维基百科](https://zh.wikipedia.org/wiki/%E5%B8%95%E9%87%91%E6%A3%AE%E7%91%A3%E7%A2%8E%E5%AE%9A%E7%90%86)
+- [英文维基百科](https://en.wikipedia.org/wiki/Law_of_triviality)
+- [中文维基百科](https://zh.wikipedia.org/wiki/%E5%B8%95%E9%87%91%E6%A3%AE%E7%91%A3%E7%A2%8E%E5%AE%9A%E7%90%86)
 
 该定理显示，群体将给予更多的时间和注意力来处理琐碎的问题，而不是用来处理严肃而实质性的问题。
 
@@ -231,8 +233,8 @@ _(图片来源: Jeremykemp 上传到英文维基, CC BY-SA 3.0, https://commons.
 
 ### Unix 哲学 (The Unix Philosophy)
 
-[英文维基百科](https://en.wikipedia.org/wiki/Unix_philosophy)
-[中文维基百科](https://zh.wikipedia.org/wiki/Unix%E5%93%B2%E5%AD%A6)
+- [英文维基百科](https://en.wikipedia.org/wiki/Unix_philosophy)
+- [中文维基百科](https://zh.wikipedia.org/wiki/Unix%E5%93%B2%E5%AD%A6)
 
 Unix 哲学是软件组件应该很小，并专注于做一件特定的事情。 将小型、简单以及定义良好的单元组合在一起，而不是使用大型、复杂以及多用途程序，可以更轻松地构建系统。
 
@@ -240,7 +242,7 @@ Unix 哲学是软件组件应该很小，并专注于做一件特定的事情。
 
 ### Spotify 模型 (The Spotify Model)
 
-[在线地址](https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/)
+- [英文在线地址](https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/)
 
 Spotify 模型是团队和组织结构的一种方法，已被 Spotify 实验室推广。 在此模型中，团队围绕功能而非技术进行组织。
 
@@ -248,7 +250,7 @@ Spotify 模型还普及了部落、行会以及章节的概念，这些是其组
 
 ### 沃德勒定律 (Wadler's Law)
 
-[在线地址](https://wiki.haskell.org/Wadler's_Law)
+- [英文在线地址](https://wiki.haskell.org/Wadler's_Law)
 
 > 任何语言设计中，讨论下面列表中某个要素所花费的总时间与其位置上的两个要素成正比。
 >
@@ -271,7 +273,7 @@ Spotify 模型还普及了部落、行会以及章节的概念，这些是其组
 
 ### 鲁棒性原则 (The Robustness Principle)
 
-[英文维基百科](https://en.wikipedia.org/wiki/Robustness_principle)
+- [英文维基百科](https://en.wikipedia.org/wiki/Robustness_principle)
 
 > 对自己所做的事情要保守，对自己接受的人要宽容。
 
@@ -283,22 +285,22 @@ Spotify 模型还普及了部落、行会以及章节的概念，这些是其组
 
 这是一个缩写，指的是：
 
-- S：[单一功能原则]（＃the-single-responsibility-principle）
-- O：[开闭原则]（＃the-openclosed-principle）
-- L：[里氏替换原则]（＃the-liskov-substitution-principle）
-- I：[接口隔离原则]（＃the-interface-segregation-principle）
-- D：[依赖反转原则]（＃-dependency-inversion-principle）
+- S：[单一功能原则 (The Single Responsibility Principle)](#%E5%8D%95%E4%B8%80%E5%8A%9F%E8%83%BD%E5%8E%9F%E5%88%99-the-single-responsibility-principle)
+- O：[开闭原则 (The Open/Closed Principle)](#%E5%BC%80%E9%97%AD%E5%8E%9F%E5%88%99-the-openclosed-principle)
+- L：[里氏替换原则 (The Liskov Substitution Principle)](#%E9%87%8C%E6%B0%8F%E6%9B%BF%E6%8D%A2%E5%8E%9F%E5%88%99-the-liskov-substitution-principle)
+- I：[接口隔离原则 (The Interface Segregation Principle)](#%E6%8E%A5%E5%8F%A3%E9%9A%94%E7%A6%BB%E5%8E%9F%E5%88%99-the-interface-segregation-principle)
+- D：[依赖反转原则 (The Dependency Inversion Principle)](#%E4%BE%9D%E8%B5%96%E5%8F%8D%E8%BD%AC%E5%8E%9F%E5%88%99-the-dependency-inversion-principle)
 
 这些是 [Object-Oriented Programming](#todo) 的关键原则。 诸如此类的设计原则能够帮助开发人员构建更易于维护的系统。
 
 ### 单一功能原则 (The Single Responsibility Principle)
 
-[英文维基百科](https://en.wikipedia.org/wiki/Single_responsibility_principle)
-[中文维基百科](https://zh.wikipedia.org/wiki/%E5%8D%95%E4%B8%80%E5%8A%9F%E8%83%BD%E5%8E%9F%E5%88%99)
+- [英文维基百科](https://en.wikipedia.org/wiki/Single_responsibility_principle)
+- [中文维基百科](https://zh.wikipedia.org/wiki/%E5%8D%95%E4%B8%80%E5%8A%9F%E8%83%BD%E5%8E%9F%E5%88%99)
 
 > 每个模块或者类只应该有一项功能。
 
-[[SOLID](#solid) 的第一个原则。 这个原则表明模块后者类只应该做一件事。 实际上，这意味着对程序功能的单个小更改，应该只需要更改一个组件。 例如，更改密码验证复杂性的方式应该只需要更改程序的一部分。
+[SOLID](#solid) 的第一个原则。 这个原则表明模块后者类只应该做一件事。 实际上，这意味着对程序功能的单个小更改，应该只需要更改一个组件。 例如，更改密码验证复杂性的方式应该只需要更改程序的一部分。
 
 理论上讲，这使代码更健壮，更容易更改。 知道正在更改的组件只有一个功能，这意味着测试更改更容易。 使用前面的例子，更改密码复杂性组件应该只影响与密码复杂性相关的功能。 变更具有许多功能的组件可能要困难得多。
 
@@ -309,8 +311,8 @@ Spotify 模型还普及了部落、行会以及章节的概念，这些是其组
 
 ### 开闭原则 (The Open/Closed Principle)
 
-[英文维基百科](https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle)
-[中文维基百科](https://zh.wikipedia.org/wiki/%E5%BC%80%E9%97%AD%E5%8E%9F%E5%88%99)
+- [英文维基百科](https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle)
+- [中文维基百科](https://zh.wikipedia.org/wiki/%E5%BC%80%E9%97%AD%E5%8E%9F%E5%88%99)
 
 > 实体应开放扩展并关闭修改。
 
@@ -327,8 +329,8 @@ Spotify 模型还普及了部落、行会以及章节的概念，这些是其组
 
 ### 里氏替换原则 (The Liskov Substitution Principle)
 
-[英文维基百科](https://en.wikipedia.org/wiki/Liskov_substitution_principle)
-[中文维基百科](https://zh.wikipedia.org/wiki/%E9%87%8C%E6%B0%8F%E6%9B%BF%E6%8D%A2%E5%8E%9F%E5%88%99)
+- [英文维基百科](https://en.wikipedia.org/wiki/Liskov_substitution_principle)
+- [中文维基百科](https://zh.wikipedia.org/wiki/%E9%87%8C%E6%B0%8F%E6%9B%BF%E6%8D%A2%E5%8E%9F%E5%88%99)
 
 > 可以在不破坏系统的情况下，用子类型替换类型。
 
@@ -345,8 +347,8 @@ Spotify 模型还普及了部落、行会以及章节的概念，这些是其组
 
 ### 接口隔离原则 (The Interface Segregation Principle)
 
-[英文维基百科](https://en.wikipedia.org/wiki/Interface_segregation_principle)
-[中文维基百科](https://zh.wikipedia.org/wiki/%E6%8E%A5%E5%8F%A3%E9%9A%94%E7%A6%BB%E5%8E%9F%E5%88%99)
+- [英文维基百科](https://en.wikipedia.org/wiki/Interface_segregation_principle)
+- [中文维基百科](https://zh.wikipedia.org/wiki/%E6%8E%A5%E5%8F%A3%E9%9A%94%E7%A6%BB%E5%8E%9F%E5%88%99)
 
 > 不应该强迫客户端依赖它不使用的方法。
 
@@ -365,12 +367,12 @@ Spotify 模型还普及了部落、行会以及章节的概念，这些是其组
 
 ### 依赖反转原则 (The Dependency Inversion Principle)
 
-[英文维基百科](https://en.wikipedia.org/wiki/Dependency_inversion_principle)
-[中文维基百科](https://zh.wikipedia.org/wiki/%E4%BE%9D%E8%B5%96%E5%8F%8D%E8%BD%AC%E5%8E%9F%E5%88%99)
+- [英文维基百科](https://en.wikipedia.org/wiki/Dependency_inversion_principle)
+- [中文维基百科](https://zh.wikipedia.org/wiki/%E4%BE%9D%E8%B5%96%E5%8F%8D%E8%BD%AC%E5%8E%9F%E5%88%99)
 
 > 高级模块不应该依赖于低级实现。
 
-[SOLID](#solid)的第五个原则。 该原则指出，更高级别的协调组件不应该知道其依赖关系的细节。
+[SOLID](#solid) 的第五个原则。 该原则指出，更高级别的协调组件不应该知道其依赖关系的细节。
 
 举个例子，假设我们有一个从网站读取元数据的程序。我们假设主要组件必须知道下载网页内容的组件，以及可以读取元数据的组件。如果我们考虑依赖反转，主要组件将仅依赖于可以获取字节数据的抽象组件，然后是一个能够从字节流中读取元数据的抽象组件。主要组件不需要了解 TCP、IP、HTTP、HTML 等。
 
@@ -385,6 +387,6 @@ Spotify 模型还普及了部落、行会以及章节的概念，这些是其组
 
 ## TODO
 
-嗨！如果你读到这里，你点击了一个我尚未写的主题链接，我感到抱歉。 这是正在进行中的工作！
+嗨！如果你读到这里，点击了一个我尚未编写的主题链接，我感到抱歉。 这是正在进行中的工作！
 
-随意 [提 Issue](https://github.com/dwmkerr/hacker-laws/issues) 获取更多详细信息，或 [提交 Pull Request](https://github.com/dwmkerr/hacker-laws/pulls) 提交你提议的主题定义。
+随意提 [Issue](https://github.com/dwmkerr/hacker-laws/issues) 获取更多详细信息，或者 [Pull Request](https://github.com/dwmkerr/hacker-laws/pulls) 提交你提议的主题。
