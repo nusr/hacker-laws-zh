@@ -6,7 +6,7 @@
 
 为了方便阅读，维基百科增加了中文链接！
 
-英文链接主题，[hacker-laws](https://github.com/dwmkerr/hacker-laws) 项目尚未完成。
+英文链接表示 [hacker-laws](https://github.com/dwmkerr/hacker-laws) 项目尚未完成。
 
 [中国无法访问维基百科说明](gfw.md)
 
