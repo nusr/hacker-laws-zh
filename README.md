@@ -378,7 +378,7 @@ Spotify 模型还普及了部落、行会以及章节的概念，这些是其组
 
 这个原则很复杂，因为它似乎可以反转系统的预期依赖性（因此得名）。实践中，这也意味着，单独的编排组件必须确保抽象类型的正确实现被使用（例如在前面的例子中，必须提供元数据读取器组件、HTTP 文件下载功能和 HTML 元标签读取器）。然后，这涉及诸如 [Inversion of Control](#todo) 和 [Dependency Injection](#todo) 之类的模式。
 
-参加：
+参见：
 
 - [Object-Orientated Programming](#todo)
 - [SOLID](#solid)
