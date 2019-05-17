@@ -118,7 +118,7 @@ _(图片来源: By Daniels220 at English Wikipedia, Creative Commons Attribution
 >
 > (罗伊阿马拉)
 
-技术成熟度曲线是[高德纳咨询公司](https://zh.wikipedia.org/wiki/%E9%AB%98%E5%BE%B7%E7%BA%B3%E5%92%A8%E8%AF%A2%E5%85%AC%E5%8F%B8)最初制作的技术兴起和发展的直观表现。一图顶千言：
+技术成熟度曲线是[高德纳咨询公司](https://zh.wikipedia.org/wiki/%E9%AB%98%E5%BE%B7%E7%BA%B3%E5%92%A8%E8%AF%A2%E5%85%AC%E5%8F%B8)技术最初兴起和发展的直观表现。一图顶千言：
 
 ![The Hype Cycle](./images/gartner_hype_cycle.png)
 
