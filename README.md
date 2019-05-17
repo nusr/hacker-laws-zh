@@ -12,7 +12,7 @@
 
 [中国无法访问维基百科说明](gfw.md)
 
-喜欢点 **star** 、关注点 **watch**、贡献点 **fork** 。
+喜欢点 **star** 、关注点 **watch**、贡献点 **fork** 。翻译难免有错漏，欢迎指正！
 
 - [介绍](#%E4%BB%8B%E7%BB%8D)
 - [定律](#%E5%AE%9A%E5%BE%8B)
@@ -43,7 +43,7 @@
 
 ## 介绍
 
-当人们谈论开发时，会聊到许多定律。 这个仓库收录了一些最常见的定律。请分享这个仓库并提交 PR ！
+当人们谈论开发时，会聊到许多定律。 这个仓库收录了一些最常见的定律。
 
 ❗: 这个仓库包含对一些定律、原则以及模式的解释，但不**提倡**其中任何一个。 它们的应用始终存在着争论，并且很大程度上取决于你正在做什么。
 
@@ -388,6 +388,6 @@ Spotify 模型还普及了部落、行会以及章节的概念，这些是其组
 
 ## TODO
 
-嗨！如果你读到这里，点击了一个我尚未编写的主题链接，我感到抱歉。 这是正在进行中的工作！
+嗨！如果你读到这里，点击了一个我尚未编写的主题链接，我感到很抱歉。这是正在进行中的工作！
 
-随意提 [Issue](https://github.com/dwmkerr/hacker-laws/issues) 获取更多详细信息，或者 [Pull Request](https://github.com/dwmkerr/hacker-laws/pulls) 提交你提议的主题。
+随意给 [hacker-laws](https://github.com/dwmkerr/hacker-laws) 提 [Issue](https://github.com/dwmkerr/hacker-laws/issues) 或者 [Pull Request](https://github.com/dwmkerr/hacker-laws/pulls)。
