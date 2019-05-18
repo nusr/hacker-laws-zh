@@ -39,6 +39,7 @@
   - [里氏替换原则 (The Liskov Substitution Principle)](#%E9%87%8C%E6%B0%8F%E6%9B%BF%E6%8D%A2%E5%8E%9F%E5%88%99-the-liskov-substitution-principle)
   - [接口隔离原则 (The Interface Segregation Principle)](#%E6%8E%A5%E5%8F%A3%E9%9A%94%E7%A6%BB%E5%8E%9F%E5%88%99-the-interface-segregation-principle)
   - [依赖反转原则 (The Dependency Inversion Principle)](#%E4%BE%9D%E8%B5%96%E5%8F%8D%E8%BD%AC%E5%8E%9F%E5%88%99-the-dependency-inversion-principle)
+- [阅读清单](#%E9%98%85%E8%AF%BB%E6%B8%85%E5%8D%95)
 - [TODO](#todo)
 
 ## 介绍
@@ -79,17 +80,18 @@ _(图片来源: By Daniels220 at English Wikipedia, Creative Commons Attribution
 
 - [英文维基百科](https://en.m.wikipedia.org/wiki/Brooks%27s_law)
 
-布鲁克斯是《人月神话》的作者。
-
 > 软件开发后期，添加人力只会使项目开发得更慢。
 
 这个定律表明，在许多情况下，试图通过增加人力来加速延期项目的交付，将会使项目交付得更晚。布鲁克斯也明白，这是一种过度简化。但一般的推理是，新资源的增加时间和通信开销，会使开发速度减慢。而且，许多任务是不可分的，比如更多的资源容易分配，这也意味着潜在的速度增加也更低。
 
 谚语 **九个女人不能在一个月内生一个孩子** 与布鲁克斯法则同出一辙，特别是某些不可分割或者并行的工作。
 
+这是[《人月神话》](#%E9%98%85%E8%AF%BB%E6%B8%85%E5%8D%95)的中心主题。
+
 参见：
 
 - [Death March](#todo)
+- [阅读清单：《人月神话》](#%E9%98%85%E8%AF%BB%E6%B8%85%E5%8D%95)
 
 ### 康威定律 (Conway's Law)
 
@@ -386,6 +388,12 @@ Spotify 模型还普及了部落、行会以及章节的概念，这些是其组
 - [Inversion of Control](#todo)
 - [Dependency Injection](#todo)
 
+## 阅读清单
+
+如果你觉得这些概念很有趣，你可能会喜欢以下书籍。
+
+- [《人月神话》谷歌阅读地址](https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month)、[豆瓣地址](https://book.douban.com/subject/26358448/) - 软件工程的经典书籍。这本书的中心主题就是[布鲁克斯法则](#%E5%B8%83%E9%B2%81%E5%85%8B%E6%96%AF%E6%B3%95%E5%88%99-brookss-law) 。
+  
 ## TODO
 
 嗨！如果你读到这里，点击了一个我尚未编写的主题链接，我感到很抱歉。这是正在进行中的工作！
