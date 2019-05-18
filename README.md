@@ -4,15 +4,15 @@
 
 [hacker-laws](https://github.com/dwmkerr/hacker-laws) 的的中文翻译。
 
-对开发人员有用的定律，理论，原则和模式。(Laws, Theories, Principles and Patterns that developers will find useful.)
+对开发人员有用的定律、理论、原则和模式。(Laws, Theories, Principles and Patterns that developers will find useful.)
 
-为了方便阅读，维基百科增加了中文链接！
+为了方便阅读，维基百科增加了中文链接。
 
 英文链接表示 [hacker-laws](https://github.com/dwmkerr/hacker-laws) 项目尚未完成的主题。
 
 [中国无法访问维基百科说明](gfw.md)
 
-喜欢点 **star** 、关注点 **watch**、贡献点 **fork** 。翻译难免有错漏，欢迎指正！
+喜欢点 **star** 、关注点 **watch** 、贡献点 **fork** 。翻译难免有错漏，欢迎指正！
 
 - [介绍](#%E4%BB%8B%E7%BB%8D)
 - [定律](#%E5%AE%9A%E5%BE%8B)
@@ -68,7 +68,7 @@ _(图片来源: By Daniels220 at English Wikipedia, Creative Commons Attribution
 
 可以看出，50％ 并行化的程序仅仅受益于 10 个处理单元，而 95％ 并行化的程序可以通过超过一千个处理单元显著提升速度。
 
-随着摩尔定律减慢，以及单个处理器的速度增加缓慢，并行化是提高性能的关键。图形编程是一个极好的例子，现代着色器可以并行渲染单个像素或片段。这也是为什么现代显卡通常具有数千个处理核心（GPU 或着色器单元）的原因。
+随着[摩尔定律](#%E6%91%A9%E5%B0%94%E5%AE%9A%E5%BE%8B-moores-law)减慢，单个处理器的速度增加缓慢，并行化是提高性能的关键。图形编程是一个极好的例子，现代着色器可以并行渲染单个像素或片段。这也是为什么现代显卡通常具有数千个处理核心（GPU 或着色器单元）的原因。
 
 参见：
 
