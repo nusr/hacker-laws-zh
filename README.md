@@ -1,4 +1,4 @@
-# 💻📖 黑客定律
+# 💻📖 hacker-laws
 
 [![Build Status](https://travis-ci.org/nusr/hacker-laws-zh.svg?branch=master)](https://travis-ci.org/nusr/hacker-laws-zh)
 
