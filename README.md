@@ -395,10 +395,12 @@ Spotify 模型还普及了部落、行会以及章节的概念，这些是组织
 
 ### 不要重复你自己原则 (The DRY Principle)
 
-[英文维基百科](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
-[中文维基百科](https://zh.wikipedia.org/wiki/%E4%B8%80%E6%AC%A1%E4%B8%94%E4%BB%85%E4%B8%80%E6%AC%A1)
+- [英文维基百科](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
+= [中文维基百科](https://zh.wikipedia.org/wiki/%E4%B8%80%E6%AC%A1%E4%B8%94%E4%BB%85%E4%B8%80%E6%AC%A1)
 
-> 系统中，每一块知识都必须是单一、明确而权威的。DRY 是 **Do not Repeat Yourself** 的缩写。这个原则旨在帮助开发人员减少代码的重复性，并将公共代码保存在一个地方。最初由安德鲁·亨特和戴夫·托马斯在 1999 年出版的《程序员修炼之道》中引用。
+> 系统中，每一块知识都必须是单一、明确而权威的。
+
+DRY 是 **Do not Repeat Yourself** 的缩写。这个原则旨在帮助开发人员减少代码的重复性，并将公共代码保存在一个地方。最初由安德鲁·亨特和戴夫·托马斯在 1999 年出版的《程序员修炼之道》中引用。
 
 > 与 DRY 相反的是 _WET_（功能实现两次或者喜欢打字 Write Everything Twice or We Enjoy Typing）。
 
