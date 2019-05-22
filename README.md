@@ -12,6 +12,8 @@
 
 喜欢点 **star** 、关注点 **watch** 、贡献点 **fork** 。翻译错漏之处，欢迎指正！
 
+正在需求新的工作机会，希望杭州或者深圳的同仁能帮忙内推一下。这是我的[简历](https://nusr.github.io/resume.pdf)
+
 - [介绍](#%E4%BB%8B%E7%BB%8D)
 - [定律](#%E5%AE%9A%E5%BE%8B)
   - [阿姆达尔定律 (Amdahl's Law)](#%E9%98%BF%E5%A7%86%E8%BE%BE%E5%B0%94%E5%AE%9A%E5%BE%8B-amdahls-law)
