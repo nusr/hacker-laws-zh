@@ -23,7 +23,6 @@
   - [技术成熟度曲线 (The Hype Cycle & Amara's Law)](#%E6%8A%80%E6%9C%AF%E6%88%90%E7%86%9F%E5%BA%A6%E6%9B%B2%E7%BA%BF-the-hype-cycle--amaras-law)
   - [隐式接口定律 (Hyrum's Law)](#%E9%9A%90%E5%BC%8F%E6%8E%A5%E5%8F%A3%E5%AE%9A%E5%BE%8B-hyrums-law)
   - [摩尔定律 (Moore's Law)](#%E6%91%A9%E5%B0%94%E5%AE%9A%E5%BE%8B-moores-law)
-  - [二八法则 (Pareto principle)](#%E4%BA%8C%E5%85%AB%E6%B3%95%E5%88%99-pareto-principle)
   - [帕金森定理 (Parkinson's Law)](#%E5%B8%95%E9%87%91%E6%A3%AE%E5%AE%9A%E7%90%86-parkinsons-law)
   - [普特定律 (Putt's Law)](#%E6%99%AE%E7%89%B9%E5%AE%9A%E5%BE%8B-putts-law)
   - [复杂性守恒定律 (The Law of Conservation of Complexity)](#%E5%A4%8D%E6%9D%82%E6%80%A7%E5%AE%88%E6%81%92%E5%AE%9A%E5%BE%8B-the-law-of-conservation-of-complexity)
@@ -33,7 +32,8 @@
   - [Spotify 模型 (The Spotify Model)](#spotify-%E6%A8%A1%E5%9E%8B-the-spotify-model)
   - [沃德勒定律 (Wadler's Law)](#%E6%B2%83%E5%BE%B7%E5%8B%92%E5%AE%9A%E5%BE%8B-wadlers-law)
 - [原则](#%E5%8E%9F%E5%88%99)
-  - [鲁棒性原则 (The Robustness Principle)](#%E9%B2%81%E6%A3%92%E6%80%A7%E5%8E%9F%E5%88%99-the-robustness-principle)
+  - [帕累托法则 (The Pareto Principle or The 80/20 Rule)](#%E5%B8%95%E7%B4%AF%E6%89%98%E6%B3%95%E5%88%99-the-pareto-principle-or-the-8020-rule)
+  - [鲁棒性原则 (The Robustness Principle or Postel's Law)](#%E9%B2%81%E6%A3%92%E6%80%A7%E5%8E%9F%E5%88%99-the-robustness-principle-or-postels-law)
   - [SOLID](#solid)
   - [单一功能原则 (The Single Responsibility Principle)](#%E5%8D%95%E4%B8%80%E5%8A%9F%E8%83%BD%E5%8E%9F%E5%88%99-the-single-responsibility-principle)
   - [开闭原则 (The Open/Closed Principle)](#%E5%BC%80%E9%97%AD%E5%8E%9F%E5%88%99-the-openclosed-principle)
@@ -163,28 +163,6 @@ _(图片来源: By Jeremykemp at English Wikipedia, CC BY-SA 3.0, https://common
 
 通常用于说明半导体和芯片技术提高的绝对速度。从 20 世纪 70 年代到 21 世纪后期，摩尔的预测被证明是高度准确的。 近年来，这种趋势略有变化，部分原因受到[量子隧穿效应](https://zh.wikipedia.org/wiki/%E9%87%8F%E5%AD%90%E7%A9%BF%E9%9A%A7%E6%95%88%E6%87%89)影响。然而，并行化计算的进步以及半导体技术和量子计算潜在的革命性变化，可能意味着摩尔定律在未来几十年内继续保持正确。
 
-### 二八法则 (Pareto principle)
-
-- [英文维基百科](https://en.wikipedia.org/wiki/Pareto_principle)
-- [中文维基百科](https://zh.wikipedia.org/wiki/%E5%B8%95%E7%B4%AF%E6%89%98%E6%B3%95%E5%88%99)
-
-> 生活中大多数事情不是均匀分布的。
-
-二八法则可以帮你认识到大多数结果来自少数投入：
-
-- 某个软件的 80％ 代码只占了总分配时间的 20％（相反，最难的 20％ 代码占用了 80％ 的时间）
-- 20％ 的努力产生了 80％ 的结果
-- 20％ 的工作创造了 80％ 的收入
-- 20％ 的错误导致了 80％ 的崩溃
-- 20％ 的功能导致了 80％ 的使用量
-
-在 20 世纪 40 年代，公认为质量控制之父的美国罗马尼亚工程师约瑟夫·朱兰博士，[开始将二八法则应用于质量问题](https://en.wikipedia.org/wiki/Joseph_M。_Juran)。
-
-现实的例子：
-
-微软 2002 年的报告表明，修复最常出现的 20％ 错误，将消除 Windows 和 Office 中 80％ 的
-错误和崩溃。
-
 ### 帕金森定理 (Parkinson's Law)
 
 - [英文维基百科](https://en.wikipedia.org/wiki/Parkinson%27s_law)
@@ -304,7 +282,31 @@ Spotify 模型还普及了部落、行会以及章节的概念，这些是组织
 
 原则通常是与设计相关的准则。
 
-### 鲁棒性原则 (The Robustness Principle)
+### 帕累托法则 (The Pareto Principle or The 80/20 Rule)
+
+- [英文维基百科](https://en.wikipedia.org/wiki/Pareto_principle)
+- [中文维基百科](https://zh.wikipedia.org/wiki/%E5%B8%95%E7%B4%AF%E6%89%98%E6%B3%95%E5%88%99)
+
+> 生活中大多数事情不是均匀分布的。
+
+帕累托法则可以帮你认识到大多数结果来自少数投入：
+
+- 某个软件的 80％ 代码只占了总分配时间的 20％（相反，最难的 20％ 代码部分占用了 80％ 的时间）
+- 20％ 的努力产生了 80％ 的结果
+- 20％ 的工作创造了 80％ 的收入
+- 20％ 的错误导致了 80％ 的崩溃
+- 20％ 的功能导致了 80％ 的使用量
+
+在 20 世纪 40 年代，公认为质量控制之父的美国罗马尼亚工程师约瑟夫·朱兰博士，[开始将帕累托法则应用于质量问题](https://en.wikipedia.org/wiki/Joseph_M._Juran)。
+
+这个原则也被称为二八法则，重要的少数法则和因素稀疏原则。
+
+现实的例子：
+
+- 微软 2002 年的报告表明，修复最常出现的 20％ 错误，将消除 Windows 和 Office 中 80％ 的
+错误和崩溃。[报告地址](https://www.crn.com/news/security/18821726/microsofts-ceo-80-20-rule-applies-to-bugs-not-just-features.htm)
+
+### 鲁棒性原则 (The Robustness Principle or Postel's Law)
 
 - [英文维基百科](https://en.wikipedia.org/wiki/Robustness_principle)
 
