@@ -1,5 +1,3 @@
-# 💻📖 hacker-laws
-
 [![Build Status](https://travis-ci.org/nusr/hacker-laws-zh.svg?branch=master)](https://travis-ci.org/nusr/hacker-laws-zh)
 
 [hacker-laws](https://github.com/dwmkerr/hacker-laws) 的的中文翻译。
@@ -12,40 +10,37 @@
 
 喜欢点 **star** 、关注点 **watch** 、贡献点 **fork** 。翻译错漏之处，欢迎指正！
 
-正在需求新的工作机会，希望杭州或者深圳的同仁能帮忙内推一下。这是我的[简历](https://nusr.github.io/resume.pdf)
-
-- [💻📖 hacker-laws](#%F0%9F%92%BB%F0%9F%93%96-hacker-laws)
-  - [介绍](#%E4%BB%8B%E7%BB%8D)
-  - [定律](#%E5%AE%9A%E5%BE%8B)
-    - [阿姆达尔定律 (Amdahl's Law)](#%E9%98%BF%E5%A7%86%E8%BE%BE%E5%B0%94%E5%AE%9A%E5%BE%8B-amdahls-law)
-    - [布鲁克斯法则 (Brooks's Law)](#%E5%B8%83%E9%B2%81%E5%85%8B%E6%96%AF%E6%B3%95%E5%88%99-brookss-law)
-    - [康威定律 (Conway's Law)](#%E5%BA%B7%E5%A8%81%E5%AE%9A%E5%BE%8B-conways-law)
-    - [邓巴数字 (Dunbar's Number)](#%E9%82%93%E5%B7%B4%E6%95%B0%E5%AD%97-dunbars-number)
-    - [汉隆的剃刀（Hanlon's Razor）](#%E6%B1%89%E9%9A%86%E7%9A%84%E5%89%83%E5%88%80hanlons-razor)
-    - [侯世达定律 (Hofstadter's Law)](#%E4%BE%AF%E4%B8%96%E8%BE%BE%E5%AE%9A%E5%BE%8B-hofstadters-law)
-    - [技术成熟度曲线 (The Hype Cycle & Amara's Law)](#%E6%8A%80%E6%9C%AF%E6%88%90%E7%86%9F%E5%BA%A6%E6%9B%B2%E7%BA%BF-the-hype-cycle--amaras-law)
-    - [隐式接口定律 (Hyrum's Law)](#%E9%9A%90%E5%BC%8F%E6%8E%A5%E5%8F%A3%E5%AE%9A%E5%BE%8B-hyrums-law)
-    - [摩尔定律 (Moore's Law)](#%E6%91%A9%E5%B0%94%E5%AE%9A%E5%BE%8B-moores-law)
-    - [帕金森定理 (Parkinson's Law)](#%E5%B8%95%E9%87%91%E6%A3%AE%E5%AE%9A%E7%90%86-parkinsons-law)
-    - [普特定律 (Putt's Law)](#%E6%99%AE%E7%89%B9%E5%AE%9A%E5%BE%8B-putts-law)
-    - [复杂性守恒定律 (The Law of Conservation of Complexity)](#%E5%A4%8D%E6%9D%82%E6%80%A7%E5%AE%88%E6%81%92%E5%AE%9A%E5%BE%8B-the-law-of-conservation-of-complexity)
-    - [漏洞抽象定律 (The Law of Leaky Abstractions)](#%E6%BC%8F%E6%B4%9E%E6%8A%BD%E8%B1%A1%E5%AE%9A%E5%BE%8B-the-law-of-leaky-abstractions)
-    - [帕金森琐碎定理 (The Law of Triviality)](#%E5%B8%95%E9%87%91%E6%A3%AE%E7%90%90%E7%A2%8E%E5%AE%9A%E7%90%86-the-law-of-triviality)
-    - [Unix 哲学 (The Unix Philosophy)](#unix-%E5%93%B2%E5%AD%A6-the-unix-philosophy)
-    - [Spotify 模型 (The Spotify Model)](#spotify-%E6%A8%A1%E5%9E%8B-the-spotify-model)
-    - [沃德勒定律 (Wadler's Law)](#%E6%B2%83%E5%BE%B7%E5%8B%92%E5%AE%9A%E5%BE%8B-wadlers-law)
-  - [原则](#%E5%8E%9F%E5%88%99)
-    - [帕累托法则 (The Pareto Principle or The 80/20 Rule)](#%E5%B8%95%E7%B4%AF%E6%89%98%E6%B3%95%E5%88%99-the-pareto-principle-or-the-8020-rule)
-    - [鲁棒性原则 (The Robustness Principle or Postel's Law)](#%E9%B2%81%E6%A3%92%E6%80%A7%E5%8E%9F%E5%88%99-the-robustness-principle-or-postels-law)
-    - [SOLID](#solid)
-    - [单一功能原则 (The Single Responsibility Principle)](#%E5%8D%95%E4%B8%80%E5%8A%9F%E8%83%BD%E5%8E%9F%E5%88%99-the-single-responsibility-principle)
-    - [开闭原则 (The Open/Closed Principle)](#%E5%BC%80%E9%97%AD%E5%8E%9F%E5%88%99-the-openclosed-principle)
-    - [里氏替换原则 (The Liskov Substitution Principle)](#%E9%87%8C%E6%B0%8F%E6%9B%BF%E6%8D%A2%E5%8E%9F%E5%88%99-the-liskov-substitution-principle)
-    - [接口隔离原则 (The Interface Segregation Principle)](#%E6%8E%A5%E5%8F%A3%E9%9A%94%E7%A6%BB%E5%8E%9F%E5%88%99-the-interface-segregation-principle)
-    - [依赖反转原则 (The Dependency Inversion Principle)](#%E4%BE%9D%E8%B5%96%E5%8F%8D%E8%BD%AC%E5%8E%9F%E5%88%99-the-dependency-inversion-principle)
-    - [不要重复你自己原则 (The DRY Principle)](#%E4%B8%8D%E8%A6%81%E9%87%8D%E5%A4%8D%E4%BD%A0%E8%87%AA%E5%B7%B1%E5%8E%9F%E5%88%99-the-dry-principle)
-  - [阅读清单](#%E9%98%85%E8%AF%BB%E6%B8%85%E5%8D%95)
-  - [TODO](#todo)
+- [介绍](#%E4%BB%8B%E7%BB%8D)
+- [定律](#%E5%AE%9A%E5%BE%8B)
+  - [阿姆达尔定律 (Amdahl's Law)](#%E9%98%BF%E5%A7%86%E8%BE%BE%E5%B0%94%E5%AE%9A%E5%BE%8B-amdahls-law)
+  - [布鲁克斯法则 (Brooks's Law)](#%E5%B8%83%E9%B2%81%E5%85%8B%E6%96%AF%E6%B3%95%E5%88%99-brookss-law)
+  - [康威定律 (Conway's Law)](#%E5%BA%B7%E5%A8%81%E5%AE%9A%E5%BE%8B-conways-law)
+  - [邓巴数字 (Dunbar's Number)](#%E9%82%93%E5%B7%B4%E6%95%B0%E5%AD%97-dunbars-number)
+  - [汉隆的剃刀（Hanlon's Razor）](#%E6%B1%89%E9%9A%86%E7%9A%84%E5%89%83%E5%88%80hanlons-razor)
+  - [侯世达定律 (Hofstadter's Law)](#%E4%BE%AF%E4%B8%96%E8%BE%BE%E5%AE%9A%E5%BE%8B-hofstadters-law)
+  - [技术成熟度曲线 (The Hype Cycle & Amara's Law)](#%E6%8A%80%E6%9C%AF%E6%88%90%E7%86%9F%E5%BA%A6%E6%9B%B2%E7%BA%BF-the-hype-cycle--amaras-law)
+  - [隐式接口定律 (Hyrum's Law)](#%E9%9A%90%E5%BC%8F%E6%8E%A5%E5%8F%A3%E5%AE%9A%E5%BE%8B-hyrums-law)
+  - [摩尔定律 (Moore's Law)](#%E6%91%A9%E5%B0%94%E5%AE%9A%E5%BE%8B-moores-law)
+  - [帕金森定理 (Parkinson's Law)](#%E5%B8%95%E9%87%91%E6%A3%AE%E5%AE%9A%E7%90%86-parkinsons-law)
+  - [普特定律 (Putt's Law)](#%E6%99%AE%E7%89%B9%E5%AE%9A%E5%BE%8B-putts-law)
+  - [复杂性守恒定律 (The Law of Conservation of Complexity)](#%E5%A4%8D%E6%9D%82%E6%80%A7%E5%AE%88%E6%81%92%E5%AE%9A%E5%BE%8B-the-law-of-conservation-of-complexity)
+  - [漏洞抽象定律 (The Law of Leaky Abstractions)](#%E6%BC%8F%E6%B4%9E%E6%8A%BD%E8%B1%A1%E5%AE%9A%E5%BE%8B-the-law-of-leaky-abstractions)
+  - [帕金森琐碎定理 (The Law of Triviality)](#%E5%B8%95%E9%87%91%E6%A3%AE%E7%90%90%E7%A2%8E%E5%AE%9A%E7%90%86-the-law-of-triviality)
+  - [Unix 哲学 (The Unix Philosophy)](#unix-%E5%93%B2%E5%AD%A6-the-unix-philosophy)
+  - [Spotify 模型 (The Spotify Model)](#spotify-%E6%A8%A1%E5%9E%8B-the-spotify-model)
+  - [沃德勒定律 (Wadler's Law)](#%E6%B2%83%E5%BE%B7%E5%8B%92%E5%AE%9A%E5%BE%8B-wadlers-law)
+- [原则](#%E5%8E%9F%E5%88%99)
+  - [帕累托法则 (The Pareto Principle or The 80/20 Rule)](#%E5%B8%95%E7%B4%AF%E6%89%98%E6%B3%95%E5%88%99-the-pareto-principle-or-the-8020-rule)
+  - [鲁棒性原则 (The Robustness Principle or Postel's Law)](#%E9%B2%81%E6%A3%92%E6%80%A7%E5%8E%9F%E5%88%99-the-robustness-principle-or-postels-law)
+  - [SOLID](#solid)
+  - [单一功能原则 (The Single Responsibility Principle)](#%E5%8D%95%E4%B8%80%E5%8A%9F%E8%83%BD%E5%8E%9F%E5%88%99-the-single-responsibility-principle)
+  - [开闭原则 (The Open/Closed Principle)](#%E5%BC%80%E9%97%AD%E5%8E%9F%E5%88%99-the-openclosed-principle)
+  - [里氏替换原则 (The Liskov Substitution Principle)](#%E9%87%8C%E6%B0%8F%E6%9B%BF%E6%8D%A2%E5%8E%9F%E5%88%99-the-liskov-substitution-principle)
+  - [接口隔离原则 (The Interface Segregation Principle)](#%E6%8E%A5%E5%8F%A3%E9%9A%94%E7%A6%BB%E5%8E%9F%E5%88%99-the-interface-segregation-principle)
+  - [依赖反转原则 (The Dependency Inversion Principle)](#%E4%BE%9D%E8%B5%96%E5%8F%8D%E8%BD%AC%E5%8E%9F%E5%88%99-the-dependency-inversion-principle)
+  - [不要重复你自己原则 (The DRY Principle)](#%E4%B8%8D%E8%A6%81%E9%87%8D%E5%A4%8D%E4%BD%A0%E8%87%AA%E5%B7%B1%E5%8E%9F%E5%88%99-the-dry-principle)
+- [阅读清单](#%E9%98%85%E8%AF%BB%E6%B8%85%E5%8D%95)
+- [TODO](#todo)
 
 ## 介绍
 
@@ -113,7 +108,7 @@ _(图片来源: By Daniels220 at English Wikipedia, Creative Commons Attribution
 
 - [英文维基百科](https://en.wikipedia.org/wiki/Dunbar%27s_number)
 
-邓巴数字是对一个人能够保持稳定社会关系的人数的认知极限——在这种关系中，一个人知道每个人是谁，也知道每个人与其他人的关系如何。而对这一数字的确切值则有着一些不同意见。邓巴指出，人仅能轻松地维持150个稳定的关系。这样的关系在一个更社会化的背景中，便是当你碰巧在酒吧里碰到这些人时候，你不会因为加入他们而感到尴尬。邓巴数字的估计值一般在100至250之间。
+邓巴数字是对一个人能够保持稳定社会关系的人数的认知极限——在这种关系中，一个人知道每个人是谁，也知道每个人与其他人的关系如何。而对这一数字的确切值则有着一些不同意见。邓巴指出，人仅能轻松地维持 150 个稳定的关系。这样的关系在一个更社会化的背景中，便是当你碰巧在酒吧里碰到这些人时候，你不会因为加入他们而感到尴尬。邓巴数字的估计值一般在 100 至 250 之间。
 
 和人与人之间稳定的关系一样，开发人员与代码库的关系也需要努力维护。当面对大型、复杂的项目，或许多项目的归属权时，我们会依赖于约定、策略和建模过程来进行扩展。邓巴数字不仅在办公室规模的扩大的过程中举足轻重，而且在设置团队工作范围，或决定系统何时应该注重于辅助建模和组织管理开销自动化的工具时，也是非常重要的。将邓巴数字放入工程内容中进行类比，那就是您能加入并有信心随叫随到进行轮换的项目数(亦或是单个项目的规范化复杂性)。
 
@@ -122,8 +117,8 @@ _(图片来源: By Daniels220 at English Wikipedia, Creative Commons Attribution
 - [英文维基百科](https://en.wikipedia.org/wiki/Hanlon%27s_razor)
 - [中文维基百科](https://zh.wikipedia.org/wiki/%E6%B1%89%E9%9A%86%E7%9A%84%E5%89%83%E5%88%80)
 
-> 不要把用愚蠢解释的恶意归咎于恶意。
-> 
+> 能解释为愚蠢的，就不要解释为恶意的。
+>
 > 罗伯特 · 汉隆
 
 这一原则表明，一个行为所产生的消极结果并不是恶意。相反，消极结果更有可能归咎于这些没有得到充分理解的行动或影响。
@@ -165,7 +160,7 @@ _(图片来源: By Jeremykemp at English Wikipedia, CC BY-SA 3.0, https://common
 - [英文在线地址](http://www.hyrumslaw.com/)
 
 > 当 API 有足够多的用户时，你在合同中的承诺已不重要：你系统的所有可观察行为都将被某些人所依赖。
-> 
+>
 > 海伦·赖特（Hyrum Wright）
 
 隐式接口定律表明，当你的 API 有足够多的用户时，API 的所有行为（包括那些未囊括在公共说明中的一部分）最终都会被其他人所依赖。 一个简单的例子是 API 的响应时间这种非功能性因素，还有一个更微妙的例子是：用户使用正则表达式判断错误信息的类型时，即使 API 的公共说明没有说明消息的内容，来指示用户错误的类型，一些用户也可能会使用并更改该消息，而这实际上会破坏 API 的使用。
@@ -324,7 +319,7 @@ Spotify 模型还普及了部落、行会以及章节的概念，这些是组织
 现实的例子：
 
 - 微软 2002 年的报告表明，修复最常出现的 20％ 错误，将消除 Windows 和 Office 中 80％ 的
-错误和崩溃。[报告地址](https://www.crn.com/news/security/18821726/microsofts-ceo-80-20-rule-applies-to-bugs-not-just-features.htm)
+  错误和崩溃。[报告地址](https://www.crn.com/news/security/18821726/microsofts-ceo-80-20-rule-applies-to-bugs-not-just-features.htm)
 
 ### 鲁棒性原则 (The Robustness Principle or Postel's Law)
 
