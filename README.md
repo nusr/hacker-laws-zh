@@ -39,7 +39,7 @@
   - [接口隔离原则 (The Interface Segregation Principle)](#%E6%8E%A5%E5%8F%A3%E9%9A%94%E7%A6%BB%E5%8E%9F%E5%88%99-the-interface-segregation-principle)
   - [依赖反转原则 (The Dependency Inversion Principle)](#%E4%BE%9D%E8%B5%96%E5%8F%8D%E8%BD%AC%E5%8E%9F%E5%88%99-the-dependency-inversion-principle)
   - [不要重复你自己原则 (The DRY Principle)](#%E4%B8%8D%E8%A6%81%E9%87%8D%E5%A4%8D%E4%BD%A0%E8%87%AA%E5%B7%B1%E5%8E%9F%E5%88%99-the-dry-principle)
-  - [你不需要它 (YAGNI)](#%E4%BD%A0%E4%B8%8D%E9%9C%80%E8%A6%81%E5%AE%83-yagni)
+  - [你不需要它原则 (YAGNI)](#%E4%BD%A0%E4%B8%8D%E9%9C%80%E8%A6%81%E5%AE%83%E5%8E%9F%E5%88%99-yagni)
 - [阅读清单](#%E9%98%85%E8%AF%BB%E6%B8%85%E5%8D%95)
 - [TODO](#todo)
 
@@ -454,7 +454,7 @@ DRY 是 **Do not Repeat Yourself** 的缩写。这个原则旨在帮助开发人
 - 《程序员修炼之道》[英文维基百科](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
 - 《程序员修炼之道》[豆瓣](https://book.douban.com/subject/1417047/)
 
-### 你不需要它 (YAGNI)
+### 你不需要它原则 (YAGNI)
 
 - [英文维基百科](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)
 
