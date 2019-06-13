@@ -24,7 +24,7 @@
   - [帕金森定理 (Parkinson's Law)](#%E5%B8%95%E9%87%91%E6%A3%AE%E5%AE%9A%E7%90%86-parkinsons-law)
   - [普特定律 (Putt's Law)](#%E6%99%AE%E7%89%B9%E5%AE%9A%E5%BE%8B-putts-law)
   - [复杂性守恒定律 (The Law of Conservation of Complexity)](#%E5%A4%8D%E6%9D%82%E6%80%A7%E5%AE%88%E6%81%92%E5%AE%9A%E5%BE%8B-the-law-of-conservation-of-complexity)
-  - [抽象泄漏定律 (The Law of Leaky Abstractions)](#%E6%BC%8F%E6%B4%9E%E6%8A%BD%E8%B1%A1%E5%AE%9A%E5%BE%8B-the-law-of-leaky-abstractions)
+  - [抽象泄漏定律 (The Law of Leaky Abstractions)](#%E6%8A%BD%E8%B1%A1%E6%B3%84%E6%BC%8F%E5%AE%9A%E5%BE%8B-the-law-of-leaky-abstractions)
   - [帕金森琐碎定理 (The Law of Triviality)](#%E5%B8%95%E9%87%91%E6%A3%AE%E7%90%90%E7%A2%8E%E5%AE%9A%E7%90%86-the-law-of-triviality)
   - [Unix 哲学 (The Unix Philosophy)](#unix-%E5%93%B2%E5%AD%A6-the-unix-philosophy)
   - [Spotify 模型 (The Spotify Model)](#spotify-%E6%A8%A1%E5%9E%8B-the-spotify-model)
@@ -39,6 +39,7 @@
   - [接口隔离原则 (The Interface Segregation Principle)](#%E6%8E%A5%E5%8F%A3%E9%9A%94%E7%A6%BB%E5%8E%9F%E5%88%99-the-interface-segregation-principle)
   - [依赖反转原则 (The Dependency Inversion Principle)](#%E4%BE%9D%E8%B5%96%E5%8F%8D%E8%BD%AC%E5%8E%9F%E5%88%99-the-dependency-inversion-principle)
   - [不要重复你自己原则 (The DRY Principle)](#%E4%B8%8D%E8%A6%81%E9%87%8D%E5%A4%8D%E4%BD%A0%E8%87%AA%E5%B7%B1%E5%8E%9F%E5%88%99-the-dry-principle)
+  - [你不需要它 (YAGNI)](#%E4%BD%A0%E4%B8%8D%E9%9C%80%E8%A6%81%E5%AE%83-yagni)
 - [阅读清单](#%E9%98%85%E8%AF%BB%E6%B8%85%E5%8D%95)
 - [TODO](#todo)
 
@@ -438,7 +439,7 @@ Spotify 模型还普及了部落、行会以及章节的概念，这些是组织
 ### 不要重复你自己原则 (The DRY Principle)
 
 - [英文维基百科](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)
-  = [中文维基百科](https://zh.wikipedia.org/wiki/%E4%B8%80%E6%AC%A1%E4%B8%94%E4%BB%85%E4%B8%80%E6%AC%A1)
+- [中文维基百科](https://zh.wikipedia.org/wiki/%E4%B8%80%E6%AC%A1%E4%B8%94%E4%BB%85%E4%B8%80%E6%AC%A1)
 
 > 系统中，每一块知识都必须是单一、明确而权威的。
 
@@ -453,10 +454,29 @@ DRY 是 **Do not Repeat Yourself** 的缩写。这个原则旨在帮助开发人
 - 《程序员修炼之道》[英文维基百科](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
 - 《程序员修炼之道》[豆瓣](https://book.douban.com/subject/1417047/)
 
+### 你不需要它 (YAGNI)
+
+- [英文维基百科](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)
+
+这是 _**Y**ou **A**ren't **G**onna **N**eed **I**t_ 的缩写。
+
+> 只有当你需要某些东西的时候，才去实现它们，而不是在你预见的时候。
+>
+> [Ron Jeffries](https://twitter.com/RonJeffries) 是极限编程的创始人之一以及书籍《Extreme Programming Installed》的作者。
+
+极限编程原则告诫开发人员，他们应该只实现当前所需的功能，并避免实现未来需要的功能，仅在必要时才实现。
+
+遵守这一原则可以减小代码库大小，同时避免时间和生产力浪费在没有价值的功能上。
+
+参见：
+
+- [阅读清单《极限编程安装》](#%E9%98%85%E8%AF%BB%E6%B8%85%E5%8D%95)
+
 ## 阅读清单
 
 如果你觉得这些概念很有趣，你可能会喜欢以下书籍。
 
+- 《Extreme Programming Installed》[谷歌阅读地址](https://www.goodreads.com/en/book/show/67834) - 涵盖极限编程的核心原则。
 - 《人月神话》[谷歌阅读地址](https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month)、[豆瓣地址](https://book.douban.com/subject/26358448/) - 软件工程的经典书籍。这本书的中心主题就是[布鲁克斯法则](#%E5%B8%83%E9%B2%81%E5%85%8B%E6%96%AF%E6%B3%95%E5%88%99-brookss-law) 。
 - 《哥德尔、艾舍尔、巴赫：集异璧之大成》[谷歌阅读地址](https://www.goodreads.com/book/show/24113.G_del_Escher_Bach)、[豆瓣地址](https://book.douban.com/subject/1291204/) - 这本书很难分类。
 
