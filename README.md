@@ -15,9 +15,11 @@
   - [阿姆达尔定律 (Amdahl's Law)](#%E9%98%BF%E5%A7%86%E8%BE%BE%E5%B0%94%E5%AE%9A%E5%BE%8B-Amdahls-Law)
   - [布鲁克斯法则 (Brooks's Law)](#%E5%B8%83%E9%B2%81%E5%85%8B%E6%96%AF%E6%B3%95%E5%88%99-Brookss-Law)
   - [康威定律 (Conway's Law)](#%E5%BA%B7%E5%A8%81%E5%AE%9A%E5%BE%8B-Conways-Law)
+  - [盖尔定律 (Gall's Law)](#%E7%9B%96%E5%B0%94%E5%AE%9A%E5%BE%8B-Galls-Law)
   - [邓巴数字 (Dunbar's Number)](#%E9%82%93%E5%B7%B4%E6%95%B0%E5%AD%97-Dunbars-Number)
   - [汉隆的剃刀（Hanlon's Razor）](#%E6%B1%89%E9%9A%86%E7%9A%84%E5%89%83%E5%88%80Hanlons-Razor)
   - [侯世达定律 (Hofstadter's Law)](#%E4%BE%AF%E4%B8%96%E8%BE%BE%E5%AE%9A%E5%BE%8B-Hofstadters-Law)
+  - [哈伯特定律 (Hutber's Law)](#%E5%93%88%E4%BC%AF%E7%89%B9%E5%AE%9A%E5%BE%8B-Hutbers-Law)
   - [技术成熟度曲线 (The Hype Cycle & Amara's Law)](#%E6%8A%80%E6%9C%AF%E6%88%90%E7%86%9F%E5%BA%A6%E6%9B%B2%E7%BA%BF-The-Hype-Cycle--Amaras-Law)
   - [隐式接口定律 (Hyrum's Law)](#%E9%9A%90%E5%BC%8F%E6%8E%A5%E5%8F%A3%E5%AE%9A%E5%BE%8B-Hyrums-Law)
   - [摩尔定律 (Moore's Law)](#%E6%91%A9%E5%B0%94%E5%AE%9A%E5%BE%8B-Moores-Law)
@@ -106,6 +108,22 @@ _(图片来源: By Daniels220 at English Wikipedia, Creative Commons Attribution
 
 - [The Spotify Model](#spotify-%E6%A8%A1%E5%9E%8B-the-spotify-model)
 
+### 盖尔定律 (Gall's Law)
+
+- [英文维基百科](https://en.m.wikipedia.org/wiki/John_Gall_(author)#Gall's_law)
+
+> 一个切实可行的复杂系统势必是从一个切实可行的简单系统发展而来的。从头开始设计的复杂系统根本不切实可行，无法修修补补让它切实可行。你必须由一个切实可行的简单系统重新开始。
+> 
+> ([约翰·盖尔](https://en.m.wikipedia.org/wiki/John_Gall_(author)))
+
+盖尔定律说明了设计高度复杂的系统很可能会失败。它们很难一蹴而就，更多是从简单的系统逐渐演变而来。
+
+最典型的例子便是互联网。如今的互联网是一个高度复杂的系统，而它最早只是被定义为一种在学术机构之间共享内容的方式。互联网成功实现了最初的目标，并且随着时间不断演化，最终成就了如今的复杂繁荣。
+
+参见：
+
+- [KISS (Keep It Simple, Stupid)](#TODO)
+
 ### 邓巴数字 (Dunbar's Number)
 
 - [英文维基百科](https://en.wikipedia.org/wiki/Dunbar%27s_number)
@@ -139,6 +157,18 @@ _(图片来源: By Daniels220 at English Wikipedia, Creative Commons Attribution
 参见：
 
 - [阅读清单：《哥德尔、艾舍尔、巴赫：集异璧之大成》](#%E9%98%85%E8%AF%BB%E6%B8%85%E5%8D%95)
+
+### 哈伯特定律 (Hutber's Law)
+
+[英文维基百科](https://en.wikipedia.org/wiki/Hutber%27s_law)
+
+> 改善即恶化。
+>
+> ([帕特里克·哈伯特](https://en.wikipedia.org/wiki/Patrick_Hutber))
+
+这个定律说明了对一个系统的改进会导致其他部分的恶化；或者它会将其他的恶化隐藏起来，并导致系统整体状态的退化。
+
+例如，某个端点的响应延迟减少，就可能导致请求流中的吞吐量和容量问题进一步增加，并影响到另一个完全不同的子系统。
 
 ### 技术成熟度曲线 (The Hype Cycle & Amara's Law)
 
