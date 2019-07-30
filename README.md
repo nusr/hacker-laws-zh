@@ -10,41 +10,42 @@
 
 喜欢点 **star** 、关注点 **watch** 、贡献点 **fork** 。翻译错漏之处，欢迎指正！
 
-- [介绍](#%E4%BB%8B%E7%BB%8D)
-- [定律](#%E5%AE%9A%E5%BE%8B)
-  - [阿姆达尔定律 (Amdahl's Law)](#%E9%98%BF%E5%A7%86%E8%BE%BE%E5%B0%94%E5%AE%9A%E5%BE%8B-Amdahls-Law)
-  - [布鲁克斯法则 (Brooks's Law)](#%E5%B8%83%E9%B2%81%E5%85%8B%E6%96%AF%E6%B3%95%E5%88%99-Brookss-Law)
-  - [康威定律 (Conway's Law)](#%E5%BA%B7%E5%A8%81%E5%AE%9A%E5%BE%8B-Conways-Law)
-  - [盖尔定律 (Gall's Law)](#%E7%9B%96%E5%B0%94%E5%AE%9A%E5%BE%8B-Galls-Law)
-  - [邓巴数字 (Dunbar's Number)](#%E9%82%93%E5%B7%B4%E6%95%B0%E5%AD%97-Dunbars-Number)
-  - [汉隆的剃刀（Hanlon's Razor）](#%E6%B1%89%E9%9A%86%E7%9A%84%E5%89%83%E5%88%80Hanlons-Razor)
-  - [侯世达定律 (Hofstadter's Law)](#%E4%BE%AF%E4%B8%96%E8%BE%BE%E5%AE%9A%E5%BE%8B-Hofstadters-Law)
-  - [哈伯特定律 (Hutber's Law)](#%E5%93%88%E4%BC%AF%E7%89%B9%E5%AE%9A%E5%BE%8B-Hutbers-Law)
-  - [技术成熟度曲线 (The Hype Cycle & Amara's Law)](#%E6%8A%80%E6%9C%AF%E6%88%90%E7%86%9F%E5%BA%A6%E6%9B%B2%E7%BA%BF-The-Hype-Cycle--Amaras-Law)
-  - [隐式接口定律 (Hyrum's Law)](#%E9%9A%90%E5%BC%8F%E6%8E%A5%E5%8F%A3%E5%AE%9A%E5%BE%8B-Hyrums-Law)
-  - [摩尔定律 (Moore's Law)](#%E6%91%A9%E5%B0%94%E5%AE%9A%E5%BE%8B-Moores-Law)
-  - [帕金森定理 (Parkinson's Law)](#%E5%B8%95%E9%87%91%E6%A3%AE%E5%AE%9A%E7%90%86-Parkinsons-Law)
-  - [过早优化效应 (Premature Optimization Effect)](#%E8%BF%87%E6%97%A9%E4%BC%98%E5%8C%96%E6%95%88%E5%BA%94-Premature-Optimization-Effect)
-  - [普特定律 (Putt's Law)](#%E6%99%AE%E7%89%B9%E5%AE%9A%E5%BE%8B-Putts-Law)
-  - [复杂性守恒定律 (The Law of Conservation of Complexity)](#%E5%A4%8D%E6%9D%82%E6%80%A7%E5%AE%88%E6%81%92%E5%AE%9A%E5%BE%8B-The-Law-of-Conservation-of-Complexity)
-  - [抽象泄漏定律 (The Law of Leaky Abstractions)](#%E6%8A%BD%E8%B1%A1%E6%B3%84%E6%BC%8F%E5%AE%9A%E5%BE%8B-The-Law-of-Leaky-Abstractions)
-  - [帕金森琐碎定理 (The Law of Triviality)](#%E5%B8%95%E9%87%91%E6%A3%AE%E7%90%90%E7%A2%8E%E5%AE%9A%E7%90%86-The-Law-of-Triviality)
-  - [Unix 哲学 (The Unix Philosophy)](#Unix-%E5%93%B2%E5%AD%A6-The-Unix-Philosophy)
-  - [Spotify 模型 (The Spotify Model)](#Spotify-%E6%A8%A1%E5%9E%8B-The-Spotify-Model)
-  - [沃德勒定律 (Wadler's Law)](#%E6%B2%83%E5%BE%B7%E5%8B%92%E5%AE%9A%E5%BE%8B-Wadlers-Law)
-- [原则](#%E5%8E%9F%E5%88%99)
-  - [帕累托法则 (The Pareto Principle or The 80/20 Rule)](#%E5%B8%95%E7%B4%AF%E6%89%98%E6%B3%95%E5%88%99-The-Pareto-Principle-or-The-8020-Rule)
-  - [鲁棒性原则 (The Robustness Principle or Postel's Law)](#%E9%B2%81%E6%A3%92%E6%80%A7%E5%8E%9F%E5%88%99-The-Robustness-Principle-or-Postels-Law)
-  - [SOLID](#SOLID)
-  - [单一功能原则 (The Single Responsibility Principle)](#%E5%8D%95%E4%B8%80%E5%8A%9F%E8%83%BD%E5%8E%9F%E5%88%99-The-Single-Responsibility-Principle)
-  - [开闭原则 (The Open/Closed Principle)](#%E5%BC%80%E9%97%AD%E5%8E%9F%E5%88%99-The-OpenClosed-Principle)
-  - [里氏替换原则 (The Liskov Substitution Principle)](#%E9%87%8C%E6%B0%8F%E6%9B%BF%E6%8D%A2%E5%8E%9F%E5%88%99-The-Liskov-Substitution-Principle)
-  - [接口隔离原则 (The Interface Segregation Principle)](#%E6%8E%A5%E5%8F%A3%E9%9A%94%E7%A6%BB%E5%8E%9F%E5%88%99-The-Interface-Segregation-Principle)
-  - [依赖反转原则 (The Dependency Inversion Principle)](#%E4%BE%9D%E8%B5%96%E5%8F%8D%E8%BD%AC%E5%8E%9F%E5%88%99-The-Dependency-Inversion-Principle)
-  - [不要重复你自己原则 (The DRY Principle)](#%E4%B8%8D%E8%A6%81%E9%87%8D%E5%A4%8D%E4%BD%A0%E8%87%AA%E5%B7%B1%E5%8E%9F%E5%88%99-The-DRY-Principle)
-  - [你不需要它原则 (YAGNI)](#%E4%BD%A0%E4%B8%8D%E9%9C%80%E8%A6%81%E5%AE%83%E5%8E%9F%E5%88%99-YAGNI)
-- [阅读清单](#%E9%98%85%E8%AF%BB%E6%B8%85%E5%8D%95)
-- [TODO](#TODO)
+- [介绍](#%e4%bb%8b%e7%bb%8d)
+- [定律](#%e5%ae%9a%e5%be%8b)
+  - [阿姆达尔定律 (Amdahl's Law)](#%e9%98%bf%e5%a7%86%e8%be%be%e5%b0%94%e5%ae%9a%e5%be%8b-amdahls-law)
+  - [布鲁克斯法则 (Brooks's Law)](#%e5%b8%83%e9%b2%81%e5%85%8b%e6%96%af%e6%b3%95%e5%88%99-brookss-law)
+  - [康威定律 (Conway's Law)](#%e5%ba%b7%e5%a8%81%e5%ae%9a%e5%be%8b-conways-law)
+  - [盖尔定律 (Gall's Law)](#%e7%9b%96%e5%b0%94%e5%ae%9a%e5%be%8b-galls-law)
+  - [邓巴数字 (Dunbar's Number)](#%e9%82%93%e5%b7%b4%e6%95%b0%e5%ad%97-dunbars-number)
+  - [汉隆的剃刀（Hanlon's Razor）](#%e6%b1%89%e9%9a%86%e7%9a%84%e5%89%83%e5%88%80hanlons-razor)
+  - [侯世达定律 (Hofstadter's Law)](#%e4%be%af%e4%b8%96%e8%be%be%e5%ae%9a%e5%be%8b-hofstadters-law)
+  - [哈伯特定律 (Hutber's Law)](#%e5%93%88%e4%bc%af%e7%89%b9%e5%ae%9a%e5%be%8b-hutbers-law)
+  - [技术成熟度曲线 (The Hype Cycle & Amara's Law)](#%e6%8a%80%e6%9c%af%e6%88%90%e7%86%9f%e5%ba%a6%e6%9b%b2%e7%ba%bf-the-hype-cycle--amaras-law)
+  - [隐式接口定律 (Hyrum's Law)](#%e9%9a%90%e5%bc%8f%e6%8e%a5%e5%8f%a3%e5%ae%9a%e5%be%8b-hyrums-law)
+  - [摩尔定律 (Moore's Law)](#%e6%91%a9%e5%b0%94%e5%ae%9a%e5%be%8b-moores-law)
+  - [墨菲定律 (Murphy's Law / Sod's Law)](#%e5%a2%a8%e8%8f%b2%e5%ae%9a%e5%be%8b-murphys-law--sods-law)
+  - [帕金森定理 (Parkinson's Law)](#%e5%b8%95%e9%87%91%e6%a3%ae%e5%ae%9a%e7%90%86-parkinsons-law)
+  - [过早优化效应 (Premature Optimization Effect)](#%e8%bf%87%e6%97%a9%e4%bc%98%e5%8c%96%e6%95%88%e5%ba%94-premature-optimization-effect)
+  - [普特定律 (Putt's Law)](#%e6%99%ae%e7%89%b9%e5%ae%9a%e5%be%8b-putts-law)
+  - [复杂性守恒定律 (The Law of Conservation of Complexity)](#%e5%a4%8d%e6%9d%82%e6%80%a7%e5%ae%88%e6%81%92%e5%ae%9a%e5%be%8b-the-law-of-conservation-of-complexity)
+  - [抽象泄漏定律 (The Law of Leaky Abstractions)](#%e6%8a%bd%e8%b1%a1%e6%b3%84%e6%bc%8f%e5%ae%9a%e5%be%8b-the-law-of-leaky-abstractions)
+  - [帕金森琐碎定理 (The Law of Triviality)](#%e5%b8%95%e9%87%91%e6%a3%ae%e7%90%90%e7%a2%8e%e5%ae%9a%e7%90%86-the-law-of-triviality)
+  - [Unix 哲学 (The Unix Philosophy)](#unix-%e5%93%b2%e5%ad%a6-the-unix-philosophy)
+  - [Spotify 模型 (The Spotify Model)](#spotify-%e6%a8%a1%e5%9e%8b-the-spotify-model)
+  - [沃德勒定律 (Wadler's Law)](#%e6%b2%83%e5%be%b7%e5%8b%92%e5%ae%9a%e5%be%8b-wadlers-law)
+- [原则](#%e5%8e%9f%e5%88%99)
+  - [帕累托法则 (The Pareto Principle or The 80/20 Rule)](#%e5%b8%95%e7%b4%af%e6%89%98%e6%b3%95%e5%88%99-the-pareto-principle-or-the-8020-rule)
+  - [鲁棒性原则 (The Robustness Principle or Postel's Law)](#%e9%b2%81%e6%a3%92%e6%80%a7%e5%8e%9f%e5%88%99-the-robustness-principle-or-postels-law)
+  - [SOLID](#solid)
+  - [单一功能原则 (The Single Responsibility Principle)](#%e5%8d%95%e4%b8%80%e5%8a%9f%e8%83%bd%e5%8e%9f%e5%88%99-the-single-responsibility-principle)
+  - [开闭原则 (The Open/Closed Principle)](#%e5%bc%80%e9%97%ad%e5%8e%9f%e5%88%99-the-openclosed-principle)
+  - [里氏替换原则 (The Liskov Substitution Principle)](#%e9%87%8c%e6%b0%8f%e6%9b%bf%e6%8d%a2%e5%8e%9f%e5%88%99-the-liskov-substitution-principle)
+  - [接口隔离原则 (The Interface Segregation Principle)](#%e6%8e%a5%e5%8f%a3%e9%9a%94%e7%a6%bb%e5%8e%9f%e5%88%99-the-interface-segregation-principle)
+  - [依赖反转原则 (The Dependency Inversion Principle)](#%e4%be%9d%e8%b5%96%e5%8f%8d%e8%bd%ac%e5%8e%9f%e5%88%99-the-dependency-inversion-principle)
+  - [不要重复你自己原则 (The DRY Principle)](#%e4%b8%8d%e8%a6%81%e9%87%8d%e5%a4%8d%e4%bd%a0%e8%87%aa%e5%b7%b1%e5%8e%9f%e5%88%99-the-dry-principle)
+  - [你不需要它原则 (YAGNI)](#%e4%bd%a0%e4%b8%8d%e9%9c%80%e8%a6%81%e5%ae%83%e5%8e%9f%e5%88%99-yagni)
+- [阅读清单](#%e9%98%85%e8%af%bb%e6%b8%85%e5%8d%95)
+- [TODO](#todo)
 
 ## 介绍
 
@@ -110,11 +111,11 @@ _(图片来源: By Daniels220 at English Wikipedia, Creative Commons Attribution
 
 ### 盖尔定律 (Gall's Law)
 
-- [英文维基百科](https://en.m.wikipedia.org/wiki/John_Gall_(author)#Gall's_law)
+- [英文维基百科](https://en.wikipedia.org/wiki/John_Gall_(author)#Gall's_law)
 
 > 一个切实可行的复杂系统势必是从一个切实可行的简单系统发展而来的。从头开始设计的复杂系统根本不切实可行，无法修修补补让它切实可行。你必须由一个切实可行的简单系统重新开始。
 > 
-> ([约翰·盖尔](https://en.m.wikipedia.org/wiki/John_Gall_(author)))
+> ([约翰·盖尔](https://en.wikipedia.org/wiki/John_Gall_(author)))
 
 盖尔定律说明了设计高度复杂的系统很可能会失败。它们很难一蹴而就，更多是从简单的系统逐渐演变而来。
 
@@ -210,6 +211,26 @@ _(图片来源: By Jeremykemp at English Wikipedia, CC BY-SA 3.0, https://common
 
 这条定律通常用于说明半导体和芯片技术提高的绝对速度。从 20 世纪 70 年代到 21 世纪后期，摩尔的预测被证明是高度准确的。 近年来，这种趋势略有变化，部分原因受到[量子隧穿效应](https://zh.wikipedia.org/wiki/%E9%87%8F%E5%AD%90%E7%A9%BF%E9%9A%A7%E6%95%88%E6%87%89)影响。然而，并行化计算的进步以及半导体技术和量子计算潜在的革命性变化，可能意味着摩尔定律在未来几十年内继续保持正确。
 
+### 墨菲定律 (Murphy's Law / Sod's Law)
+
+[英文维基百科](https://en.wikipedia.org/wiki/Murphy%27s_law)
+[中文维基百科](https://zh.wikipedia.org/wiki/%E6%91%A9%E8%8F%B2%E5%AE%9A%E7%90%86)科
+
+> 凡是可能出错的事就一定会出错。
+
+出自 [爱德华·A·墨菲](https://en.wikipedia.org/wiki/Edward_A._Murphy_Jr.) ， _墨菲定律_ 说明了如果一件事有可能出错，那么就一定会出错。
+
+这是一句开发人员间的俗语，在开发、测试甚至在生产中都有可能会发生一些令人意想不到的事情。而这一定律也可以参考在英式英语中更为常见的 _索德定理_ ：
+
+> 如果某件事可能出错，那么它一定会在最糟糕的时候发生。
+
+这些定律常常用于幽默嘲弄。但是，类似于 [_Confirmation Bias_](#TODO) 和 [_Selection Bias_](#TODO) 的现象很容易导致人们过分强调这些定律（即在大部分情况下，一件事的成功会显得司空见惯；而失败才会引起更多的注意和讨论）。
+
+参见:
+
+- [Confirmation Bias](#TODO)
+- [Selection Bias](#TODO)
+
 ### 帕金森定理 (Parkinson's Law)
 
 - [英文维基百科](https://en.wikipedia.org/wiki/Parkinson%27s_law)
@@ -233,9 +254,9 @@ _(图片来源: By Jeremykemp at English Wikipedia, CC BY-SA 3.0, https://common
 >
 > [高纳德 (唐纳德克努特的中文名)](https://twitter.com/realdonaldknuth?lang=en)
 
-在高纳德的[《goto 语句的结构化编程》](http://wiki.c2.com/?StructuredProgrammingWithGoToStatements)论文中，他写到，程序员花了大量的时间思考和担心非关键部分的速度，这些尝试在调试以及维护时会产生强烈的副作用。我们大约 97% 的时间浪费在小效率上。**过早优化是万恶之源。**。我们应该关注 3% 的关键部分。
+在高纳德的[《goto 语句的结构化编程》](http://wiki.c2.com/?StructuredProgrammingWithGoToStatements)论文中，他写到：“程序员们浪费了大量的时间去思考或者担心他们的程序中的非关键部分的速度。而在考虑调试和维护的时候，这些所谓提高效率的做法实际上十分不妥。我们应该放弃小的效率点，并且要在 97% 的时间提醒自己，**过早优化是万恶之源**。而且连那关键的 3% 也不能够放过。”
 
-然而，在我们真正需要优化时，**过早优化**可以定义为优化。
+然而，_过早优化_ （简而言之）可以定义为在我们知道需要做什么之前进行优化。
 
 ### 普特定律 (Putt's Law)
 
