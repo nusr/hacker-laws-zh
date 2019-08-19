@@ -213,8 +213,8 @@ _(图片来源: By Jeremykemp at English Wikipedia, CC BY-SA 3.0, https://common
 
 ### 墨菲定律 (Murphy's Law / Sod's Law)
 
-[英文维基百科](https://en.wikipedia.org/wiki/Murphy%27s_law)
-[中文维基百科](https://zh.wikipedia.org/wiki/%E6%91%A9%E8%8F%B2%E5%AE%9A%E7%90%86)科
+- [英文维基百科](https://en.wikipedia.org/wiki/Murphy%27s_law)
+- [中文维基百科](https://zh.wikipedia.org/wiki/%E6%91%A9%E8%8F%B2%E5%AE%9A%E7%90%86)
 
 > 凡是可能出错的事就一定会出错。
 
