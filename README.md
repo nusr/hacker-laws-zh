@@ -15,8 +15,8 @@
   - [阿姆达尔定律 (Amdahl's Law)](#%e9%98%bf%e5%a7%86%e8%be%be%e5%b0%94%e5%ae%9a%e5%be%8b-amdahls-law)
   - [布鲁克斯法则 (Brooks's Law)](#%e5%b8%83%e9%b2%81%e5%85%8b%e6%96%af%e6%b3%95%e5%88%99-brookss-law)
   - [康威定律 (Conway's Law)](#%e5%ba%b7%e5%a8%81%e5%ae%9a%e5%be%8b-conways-law)
-  - [盖尔定律 (Gall's Law)](#%e7%9b%96%e5%b0%94%e5%ae%9a%e5%be%8b-galls-law)
   - [邓巴数字 (Dunbar's Number)](#%e9%82%93%e5%b7%b4%e6%95%b0%e5%ad%97-dunbars-number)
+  - [盖尔定律 (Gall's Law)](#%e7%9b%96%e5%b0%94%e5%ae%9a%e5%be%8b-galls-law)
   - [汉隆的剃刀（Hanlon's Razor）](#%e6%b1%89%e9%9a%86%e7%9a%84%e5%89%83%e5%88%80hanlons-razor)
   - [侯世达定律 (Hofstadter's Law)](#%e4%be%af%e4%b8%96%e8%be%be%e5%ae%9a%e5%be%8b-hofstadters-law)
   - [哈伯特定律 (Hutber's Law)](#%e5%93%88%e4%bc%af%e7%89%b9%e5%ae%9a%e5%be%8b-hutbers-law)
@@ -34,7 +34,9 @@
   - [Spotify 模型 (The Spotify Model)](#spotify-%e6%a8%a1%e5%9e%8b-the-spotify-model)
   - [沃德勒定律 (Wadler's Law)](#%e6%b2%83%e5%be%b7%e5%8b%92%e5%ae%9a%e5%be%8b-wadlers-law)
 - [原则](#%e5%8e%9f%e5%88%99)
+  - [呆伯特法则 (The Dilbert Principle)](#%e5%91%86%e4%bc%af%e7%89%b9%e6%b3%95%e5%88%99-the-dilbert-principle)
   - [帕累托法则 (The Pareto Principle or The 80/20 Rule)](#%e5%b8%95%e7%b4%af%e6%89%98%e6%b3%95%e5%88%99-the-pareto-principle-or-the-8020-rule)
+  - [彼得原理 (The Peter Principle)](#%e5%bd%bc%e5%be%97%e5%8e%9f%e7%90%86-the-peter-principle)
   - [鲁棒性原则 (The Robustness Principle or Postel's Law)](#%e9%b2%81%e6%a3%92%e6%80%a7%e5%8e%9f%e5%88%99-the-robustness-principle-or-postels-law)
   - [SOLID](#solid)
   - [单一功能原则 (The Single Responsibility Principle)](#%e5%8d%95%e4%b8%80%e5%8a%9f%e8%83%bd%e5%8e%9f%e5%88%99-the-single-responsibility-principle)
@@ -49,7 +51,7 @@
 
 ## 介绍
 
-当人们谈论开发时，会聊到许多定律。 这个仓库收录了一些最常见的定律。
+当人们谈论开发时，会聊到许多定律。这个仓库收录了一些最常见的定律。
 
 ❗: 这个仓库包含对一些定律、原则以及模式的解释，但不**提倡**其中任何一个。 它们的应用始终存在着争论，并且很大程度上取决于你正在做什么。
 
@@ -109,6 +111,18 @@ _(图片来源: By Daniels220 at English Wikipedia, Creative Commons Attribution
 
 - [The Spotify Model](#spotify-%E6%A8%A1%E5%9E%8B-the-spotify-model)
 
+### 邓巴数字 (Dunbar's Number)
+
+- [英文维基百科](https://en.wikipedia.org/wiki/Dunbar%27s_number)
+
+邓巴数字是对一个人能够保持稳定社会关系的人数的认知极限——在这种关系中，一个人知道每个人是谁，也知道每个人与其他人的关系如何。而对这一数字的确切值则有着一些不同意见。邓巴指出，人仅能轻松地维持 150 个稳定的关系。这样的关系在一个更社会化的背景中，便是当你碰巧在酒吧里碰到这些人时候，你不会因为加入他们而感到尴尬。邓巴数字的估计值一般在 100 至 250 之间。
+
+和人与人之间稳定的关系一样，开发人员与代码库的关系也需要努力维护。当面对大型、复杂的项目，或许多项目的归属权时，我们会依赖于约定、策略和建模过程来进行扩展。邓巴数字不仅在办公室规模的扩大的过程中举足轻重，而且在设置团队工作范围，或决定系统何时应该注重于辅助建模和组织管理开销自动化的工具时，也是非常重要的。将邓巴数字放入工程内容中进行类比，那就是您能加入并有信心随叫随到进行轮换的项目数(亦或是单个项目的规范化复杂性)。
+
+参见：
+
+- [康威定律](#%e5%ba%b7%e5%a8%81%e5%ae%9a%e5%be%8b-conways-law)
+
 ### 盖尔定律 (Gall's Law)
 
 - [英文维基百科](https://en.wikipedia.org/wiki/John_Gall_(author)#Gall's_law)
@@ -124,14 +138,6 @@ _(图片来源: By Daniels220 at English Wikipedia, Creative Commons Attribution
 参见：
 
 - [KISS (Keep It Simple, Stupid)](#TODO)
-
-### 邓巴数字 (Dunbar's Number)
-
-- [英文维基百科](https://en.wikipedia.org/wiki/Dunbar%27s_number)
-
-邓巴数字是对一个人能够保持稳定社会关系的人数的认知极限——在这种关系中，一个人知道每个人是谁，也知道每个人与其他人的关系如何。而对这一数字的确切值则有着一些不同意见。邓巴指出，人仅能轻松地维持 150 个稳定的关系。这样的关系在一个更社会化的背景中，便是当你碰巧在酒吧里碰到这些人时候，你不会因为加入他们而感到尴尬。邓巴数字的估计值一般在 100 至 250 之间。
-
-和人与人之间稳定的关系一样，开发人员与代码库的关系也需要努力维护。当面对大型、复杂的项目，或许多项目的归属权时，我们会依赖于约定、策略和建模过程来进行扩展。邓巴数字不仅在办公室规模的扩大的过程中举足轻重，而且在设置团队工作范围，或决定系统何时应该注重于辅助建模和组织管理开销自动化的工具时，也是非常重要的。将邓巴数字放入工程内容中进行类比，那就是您能加入并有信心随叫随到进行轮换的项目数(亦或是单个项目的规范化复杂性)。
 
 ### 汉隆的剃刀（Hanlon's Razor）
 
@@ -201,6 +207,7 @@ _(图片来源: By Jeremykemp at English Wikipedia, CC BY-SA 3.0, https://common
 参见：
 
 - [抽象泄漏定律](#%E6%BC%8F%E6%B4%9E%E6%8A%BD%E8%B1%A1%E5%AE%9A%E5%BE%8B-the-law-of-leaky-abstractions)
+- [XKCD 1172](https://xkcd.com/1172/)
 
 ### 摩尔定律 (Moore's Law)
 
@@ -347,8 +354,8 @@ Spotify 模型还普及了部落、行会以及章节的概念，这些是组织
 >
 > 0. 语义 (Semantics)
 > 1. 语法 (Syntax)
-> 1. 词法 (Lexical syntax)
-> 1. 注释语法 (Lexical syntax of comments)
+> 2. 词法 (Lexical syntax)
+> 3. 注释语法 (Lexical syntax of comments)
 >
 > （简而言之，在语义上花费一个小时，就要在注释语法上花费八个小时）。
 
@@ -361,6 +368,24 @@ Spotify 模型还普及了部落、行会以及章节的概念，这些是组织
 ## 原则
 
 原则通常是与设计相关的准则。
+
+### 呆伯特法则 (The Dilbert Principle)
+
+[英文维基百科](https://en.wikipedia.org/wiki/Dilbert_principle)
+[中文维基百科](https://zh.wikipedia.org/wiki/%E5%91%86%E4%BC%AF%E7%89%B9%E6%B3%95%E5%89%87)
+
+> 公司会倾向于系统地将工作能力差的员工提升到管理层，以使他们脱离工作流程。
+>
+> 史考特·亚当斯
+
+呆伯特原则是由史考特·亚当斯 (Dilbert 漫画连环画的创建者) 开发的一个管理概念，灵感来源于[彼得原理](#%e5%bd%bc%e5%be%97%e5%8e%9f%e7%90%86-the-peter-principle)。根据呆伯特原则，工作能力差的员工会被提升到管理层，从而限制他们所能造成的损害。亚当斯首先在 1995 年《华尔街日报》的一篇文章中解释了这一原则，随后在他 1996 年的商业书籍《呆伯特原则》中进行了扩展。
+
+Under the Dilbert Principle, employees who were never competent are promoted to management in order to limit the damage they can do. Adams first explained the principle in a 1995 Wall Street Journal article, and expanded upon it in his 1996 business book, [The Dilbert Principle](#reading-list).
+
+参见：
+
+- [The Peter Principle](#the-peter-principle)
+- [普特定律](#%e6%99%ae%e7%89%b9%e5%ae%9a%e5%be%8b-putts-law)
 
 ### 帕累托法则 (The Pareto Principle or The 80/20 Rule)
 
@@ -385,6 +410,24 @@ Spotify 模型还普及了部落、行会以及章节的概念，这些是组织
 
 - 微软 2002 年的报告表明，修复最常出现的 20％ 错误，将消除 Windows 和 Office 中 80％ 的
   错误和崩溃。[报告地址](https://www.crn.com/news/security/18821726/microsofts-ceo-80-20-rule-applies-to-bugs-not-just-features.htm)
+
+### 彼得原理 (The Peter Principle)
+
+[英文维基百科](https://en.wikipedia.org/wiki/Peter_principle)
+[中文维基百科](https://zh.wikipedia.org/wiki/%E5%BD%BC%E5%BE%97%E5%8E%9F%E7%90%86)
+
+> 在等级制度中，人往往会被提升到他们的“无法胜任的水平”。
+>
+> 劳伦斯·彼得
+
+这是由劳伦斯·彼得提出的一个管理概念。彼得原理认为，擅长工作的人会得到提升，直到他们达到不再成功的水平 (即他们所“无法胜任的水平”)。基于此，由于他们资历更高，被公司开除的可能性较小 (除非他们表现非常糟糕)。而且他们将继续担任几乎没有本职技能的职位，即使那些原本让他们成功的能力在新工作中并无必要。
+
+有的工程师对此特别感兴趣，它们最初从事的是深度的技术工作，但走上了**管理**其他工程师的职业道路——这意味着需要一个完全不同的技能树。
+
+参见：
+
+- [呆伯特法则](#%e5%91%86%e4%bc%af%e7%89%b9%e6%b3%95%e5%88%99)
+- [普特定律](#%e6%99%ae%e7%89%b9%e5%ae%9a%e5%be%8b-putts-law)
 
 ### 鲁棒性原则 (The Robustness Principle or Postel's Law)
 
@@ -540,12 +583,14 @@ DRY 是 **Do not Repeat Yourself** 的缩写。这个原则旨在帮助开发人
 
 如果你觉得这些概念很有趣，你可能会喜欢以下书籍。
 
-- 《Extreme Programming Installed》[谷歌阅读地址](https://www.goodreads.com/en/book/show/67834) - 涵盖极限编程的核心原则。
+- 《极限编程安装》[谷歌阅读地址](https://www.goodreads.com/en/book/show/67834) - 涵盖极限编程的核心原则。
 - 《人月神话》[谷歌阅读地址](https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month)、[豆瓣地址](https://book.douban.com/subject/26358448/) - 软件工程的经典书籍。这本书的中心主题就是[布鲁克斯法则](#%E5%B8%83%E9%B2%81%E5%85%8B%E6%96%AF%E6%B3%95%E5%88%99-brookss-law) 。
-- 《哥德尔、艾舍尔、巴赫：集异璧之大成》[谷歌阅读地址](https://www.goodreads.com/book/show/24113.G_del_Escher_Bach)、[豆瓣地址](https://book.douban.com/subject/1291204/) - 这本书很难分类。
+- 《哥德尔、艾舍尔、巴赫：集异璧之大成》[谷歌阅读地址](https://www.goodreads.com/book/show/24113.G_del_Escher_Bach)、[豆瓣地址](https://book.douban.com/subject/1291204/) - 这本书很难分类。[侯世达定律](#%e4%be%af%e4%b8%96%e8%be%be%e5%ae%9a%e5%be%8b-hofstadters-law) 来自此书。
+- 《呆伯特原则》[谷歌阅读地址](https://www.goodreads.com/book/show/85574.The_Dilbert_Principle) - 一本审视美国企业的漫画书，其作者创造了[呆伯特法则](#%e5%91%86%e4%bc%af%e7%89%b9%e6%b3%95%e5%88%99-the-dilbert-principle)。
+- 《彼得原理》[谷歌阅读地址](https://www.goodreads.com/book/show/890728.The_Peter_Principle) - 一本专注于大型组织和人员管理的挑战的漫画书，也是[彼得原理](#%e5%bd%bc%e5%be%97%e5%8e%9f%e7%90%86-the-peter-principle)的来源。
 
 ## TODO
 
 嗨！如果你读到这里，点击了一个我尚未编写的主题链接，我感到很抱歉。这是正在进行中的工作！
 
-随意给 [hacker-laws](https://github.com/dwmkerr/hacker-laws) 提 [Issue](https://github.com/dwmkerr/hacker-laws/issues) 或者 [Pull Request](https://github.com/dwmkerr/hacker-laws/pulls)。
+随意给 [hacker-laws](https://github.com/dwmkerr/hacker-laws) 和 [hacker-laws-zh](https://github.com/nusr/hacker-laws-zh) 提 [Issue](https://github.com/dwmkerr/hacker-laws/issues) 或者 [Pull Request](https://github.com/dwmkerr/hacker-laws/pulls)。
