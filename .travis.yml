@@ -7,4 +7,4 @@ before_script:
   - gem install awesome_bot
 
 script:
-  - awesome_bot README.md --allow-dupe --allow-redirect --white-list wiki.haskell.org,www.goodreads.com
+  - awesome_bot README.md --allow-dupe --allow-redirect --white-list wiki.haskell.org,www.goodreads.com,en.wikipedia.org/wiki/John_Gall_(author)
