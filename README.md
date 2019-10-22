@@ -152,7 +152,7 @@ _(图片来源: By Daniels220 at English Wikipedia, Creative Commons Attribution
 
 参见：
 
-- [KISS 原则 (保持简单和愚蠢)](#kiss-%e5%8e%9f%e5%88%99-the-kiss-principle)
+- [KISS 原则 (保持简单和直白)](#kiss-%e5%8e%9f%e5%88%99-the-kiss-principle)
 
 ### 汉隆的剃刀（Hanlon's Razor）
 
