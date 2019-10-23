@@ -46,6 +46,7 @@
   - [接口隔离原则 (The Interface Segregation Principle)](#%e6%8e%a5%e5%8f%a3%e9%9a%94%e7%a6%bb%e5%8e%9f%e5%88%99-the-interface-segregation-principle)
   - [依赖反转原则 (The Dependency Inversion Principle)](#%e4%be%9d%e8%b5%96%e5%8f%8d%e8%bd%ac%e5%8e%9f%e5%88%99-the-dependency-inversion-principle)
   - [不要重复你自己原则 (The DRY Principle)](#%e4%b8%8d%e8%a6%81%e9%87%8d%e5%a4%8d%e4%bd%a0%e8%87%aa%e5%b7%b1%e5%8e%9f%e5%88%99-the-dry-principle)
+  - [KISS 原则 (The KISS Principle)](#kiss-%e5%8e%9f%e5%88%99-the-kiss-principle)
   - [你不需要它原则 (YAGNI)](#%e4%bd%a0%e4%b8%8d%e9%9c%80%e8%a6%81%e5%ae%83%e5%8e%9f%e5%88%99-yagni)
 - [阅读清单](#%e9%98%85%e8%af%bb%e6%b8%85%e5%8d%95)
 - [TODO](#todo)
@@ -142,7 +143,7 @@ _(图片来源: By Daniels220 at English Wikipedia, Creative Commons Attribution
 - [英文维基百科](https://en.wikipedia.org/wiki/John_Gall_(author)#Gall's_law)
 
 > 一个切实可行的复杂系统势必是从一个切实可行的简单系统发展而来的。从头开始设计的复杂系统根本不切实可行，无法修修补补让它切实可行。你必须由一个切实可行的简单系统重新开始。
-> 
+>
 > ([约翰·盖尔](https://en.wikipedia.org/wiki/John_Gall_(author)))
 
 盖尔定律说明了设计高度复杂的系统很可能会失败。它们很难一蹴而就，更多是从简单的系统逐渐演变而来。
@@ -151,7 +152,7 @@ _(图片来源: By Daniels220 at English Wikipedia, Creative Commons Attribution
 
 参见：
 
-- [KISS (Keep It Simple, Stupid)](#TODO)
+- [KISS 原则 (保持简单和直白)](#kiss-%e5%8e%9f%e5%88%99-the-kiss-principle)
 
 ### 汉隆的剃刀（Hanlon's Razor）
 
@@ -572,6 +573,21 @@ DRY 是 **Do not Repeat Yourself** 的缩写。这个原则旨在帮助开发人
 
 - 《程序员修炼之道》[英文维基百科](https://en.wikipedia.org/wiki/The_Pragmatic_Programmer)
 - 《程序员修炼之道》[豆瓣](https://book.douban.com/subject/1417047/)
+
+### KISS 原则 (The KISS Principle)
+
+- [英文维基百科](https://en.wikipedia.org/wiki/KISS_principle)
+- [中文维基百科](https://zh.wikipedia.org/wiki/KISS%E5%8E%9F%E5%88%99)
+
+> 保持简单和直白。
+
+KISS 原则指明了如果大多数的系统能够保持简单而非复杂化，那么他们便能够工作在最佳状态。因此，简单性应该是设计时的关键指标，同时也要避免不必要的复杂度。这个短语最初出自 1960 年的美国海军飞机工程师凯利 · 约翰逊 (Kelly Johnson)。
+
+这一原则的最好例证便是约翰逊给设计工程师一些实用工具的故事。那时的他们正面临着一个挑战，即他们参与设计的喷气式飞机必须能够让普通的机械师在战场上仅仅用这些工具进行维修，因此，“直白”这个词应指的是损坏的事物本身和修复用工具的复杂度两者之间的关系，而非工程师们自身的能力水平。
+
+参见：
+
+- [盖尔定律](#%e7%9b%96%e5%b0%94%e5%ae%9a%e5%be%8b-galls-law)
 
 ### 你不需要它原则 (YAGNI)
 
