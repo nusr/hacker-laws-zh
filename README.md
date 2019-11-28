@@ -18,6 +18,7 @@
   - [坎宁汉姆定律 (Cunningham's Law)](#%e5%9d%8e%e5%ae%81%e6%b1%89%e5%a7%86%e5%ae%9a%e5%be%8b-cunninghams-law)
   - [邓巴数字 (Dunbar's Number)](#%e9%82%93%e5%b7%b4%e6%95%b0%e5%ad%97-dunbars-number)
   - [盖尔定律 (Gall's Law)](#%e7%9b%96%e5%b0%94%e5%ae%9a%e5%be%8b-galls-law)
+  - [古德哈特定律 (Goodhart's Law)](#%e5%8f%a4%e5%be%b7%e5%93%88%e7%89%b9%e5%ae%9a%e5%be%8b-goodharts-law)
   - [汉隆的剃刀（Hanlon's Razor）](#%e6%b1%89%e9%9a%86%e7%9a%84%e5%89%83%e5%88%80hanlons-razor)
   - [侯世达定律 (Hofstadter's Law)](#%e4%be%af%e4%b8%96%e8%be%be%e5%ae%9a%e5%be%8b-hofstadters-law)
   - [哈伯特定律 (Hutber's Law)](#%e5%93%88%e4%bc%af%e7%89%b9%e5%ae%9a%e5%be%8b-hutbers-law)
@@ -119,7 +120,7 @@ _(图片来源: By Daniels220 at English Wikipedia, Creative Commons Attribution
 
 ### 坎宁汉姆定律 (Cunningham's Law)
 
-[英文维基百科](https://en.wikipedia.org/wiki/Ward_Cunningham#Cunningham's_Law)
+- [英文维基百科](https://en.wikipedia.org/wiki/Ward_Cunningham#Cunningham's_Law)
 
 > 在网络上想得到正确答案的最好方法不是提问题，而是发布一个错误的答案。
 
@@ -148,7 +149,7 @@ _(图片来源: By Daniels220 at English Wikipedia, Creative Commons Attribution
 
 > 一个切实可行的复杂系统势必是从一个切实可行的简单系统发展而来的。从头开始设计的复杂系统根本不切实可行，无法修修补补让它切实可行。你必须由一个切实可行的简单系统重新开始。
 >
-> ([约翰·盖尔](https://en.wikipedia.org/wiki/John_Gall_(author)))
+> [约翰·盖尔](https://en.wikipedia.org/wiki/John_Gall_(author)) (John Gall)
 
 盖尔定律说明了设计高度复杂的系统很可能会失败。它们很难一蹴而就，更多是从简单的系统逐渐演变而来。
 
@@ -158,6 +159,32 @@ _(图片来源: By Daniels220 at English Wikipedia, Creative Commons Attribution
 
 - [KISS 原则 (保持简单和直白)](#kiss-%e5%8e%9f%e5%88%99-the-kiss-principle)
 
+### 古德哈特定律 (Goodhart's Law)
+
+- [英文维基百科](https://en.wikipedia.org/wiki/Goodhart's_law)
+- [中文维基百科](https://zh.wikipedia.org/wiki/%E5%8F%A4%E5%BE%B7%E5%93%88%E7%89%B9%E5%AE%9A%E5%BE%8B)
+
+> 当压力施于其上以进行控制时，任何观测到的统计恒性都倾向消散。
+>
+> _查尔斯·古德哈特 (Charles Goodhart)_
+
+另见：
+
+> 当一个措施本身成为目标时，它就不再是一个好的措施。
+>
+> _玛丽莲·斯特拉腾 (Marilyn Strathern)_
+
+根据这一定律，由测量驱动的优化反而可能导致测量结果本身的说服力下降。盲目使用一些过度严格筛选的方法 ([KPIs](https://zh.wikipedia.org/wiki/%E9%97%9C%E9%8D%B5%E7%B8%BE%E6%95%88%E6%8C%87%E6%A8%99)) 可能会产生一些不良的影响。人们会倾向于用“钻空子”的行为去做局部优化，从而满足一些特定的度量标准，而不会在意整体的结果。
+
+现实中的例子：
+
+- Assert-free 测试可以达到代码覆盖率的预期，但度量的目的应该是创造经过良好测试的软件。
+- 由 commits 的行数来评价开发人员的表现，从而导致了不合理的代码库扩增。
+
+参见
+- [古德哈特定律：错误的测量如何导致不道德的行为](https://coffeeandjunk.com/goodharts-campbells-law/)
+- [呆伯特与无 bug 软件](https://dilbert.com/strip/1995-11-13)
+
 ### 汉隆的剃刀（Hanlon's Razor）
 
 - [英文维基百科](https://en.wikipedia.org/wiki/Hanlon%27s_razor)
@@ -165,7 +192,7 @@ _(图片来源: By Daniels220 at English Wikipedia, Creative Commons Attribution
 
 > 能解释为愚蠢的，就不要解释为恶意的。
 >
-> 罗伯特 · 汉隆
+> _罗伯特·汉隆 (Robert J. Hanlon)_
 
 这一原则表明，一个行为所产生的消极结果并不是恶意。相反，消极结果更有可能归咎于这些没有得到充分理解的行动或影响。
 
@@ -175,6 +202,8 @@ _(图片来源: By Daniels220 at English Wikipedia, Creative Commons Attribution
 - [中文维基百科](https://zh.wikipedia.org/wiki/%E4%BE%AF%E4%B8%96%E8%BE%BE%E5%AE%9A%E5%BE%8B)
 
 > 即使考虑到侯世达定律，它也总是比你预期的要长。
+>
+> 侯世达 (Douglas Hofstadter)
 
 在估计需要多长时间开发时，你可能会听到此定律。软件开发似乎有这样一条定理，即我们往往不能准确地估计需要多长时间才能完成。
 
@@ -186,11 +215,11 @@ _(图片来源: By Daniels220 at English Wikipedia, Creative Commons Attribution
 
 ### 哈伯特定律 (Hutber's Law)
 
-[英文维基百科](https://en.wikipedia.org/wiki/Hutber%27s_law)
+- [英文维基百科](https://en.wikipedia.org/wiki/Hutber%27s_law)
 
 > 改善即恶化。
 >
-> ([帕特里克·哈伯特](https://en.wikipedia.org/wiki/Patrick_Hutber))
+> [帕特里克·哈伯特](https://en.wikipedia.org/wiki/Patrick_Hutber) (Patrick Hutber)
 
 这个定律说明了对一个系统的改进会导致其他部分的恶化；或者它会将其他的恶化隐藏起来，并导致系统整体状态的退化。
 
@@ -203,7 +232,7 @@ _(图片来源: By Daniels220 at English Wikipedia, Creative Commons Attribution
 
 > 我们倾向于过高估计技术在短期内的影响，并低估长期效应。
 >
-> (罗伊·阿马拉)
+> _罗伊·阿马拉 (Roy Amara)_
 
 技术成熟度曲线是[高德纳咨询公司](https://zh.wikipedia.org/wiki/%E9%AB%98%E5%BE%B7%E7%BA%B3%E5%92%A8%E8%AF%A2%E5%85%AC%E5%8F%B8)对技术最初兴起和发展的视觉展现。一图顶千言：
 
@@ -219,7 +248,7 @@ _(图片来源: By Jeremykemp at English Wikipedia, CC BY-SA 3.0, https://common
 
 > 当 API 有足够多的用户时，你在合同中的承诺已不重要：你系统的所有可观察行为都将被某些人所依赖。
 >
-> 海伦·赖特（Hyrum Wright）
+> _海伦·赖特（Hyrum Wright）_
 
 隐式接口定律表明，当你的 API 有足够多的用户时，API 的所有行为（包括那些未囊括在公共说明中的一部分）最终都会被其他人所依赖。 一个简单的例子是 API 的响应时间这种非功能性因素，还有一个更微妙的例子是：用户使用正则表达式判断错误信息的类型时，即使 API 的公共说明没有说明消息的内容，来指示用户错误的类型，一些用户也可能会使用并更改该消息，而这实际上会破坏 API 的使用。
 
@@ -230,8 +259,8 @@ _(图片来源: By Jeremykemp at English Wikipedia, CC BY-SA 3.0, https://common
 
 ### 梅特卡夫定律 (Metcalfe's Law)
 
-[英文维基百科](https://en.wikipedia.org/wiki/Metcalfe's_law)
-[中文维基百科](https://zh.wikipedia.org/wiki/%E6%A2%85%E7%89%B9%E5%8D%A1%E5%A4%AB%E5%AE%9A%E5%BE%8B)
+- [英文维基百科](https://en.wikipedia.org/wiki/Metcalfe's_law)
+- [中文维基百科](https://zh.wikipedia.org/wiki/%E6%A2%85%E7%89%B9%E5%8D%A1%E5%A4%AB%E5%AE%9A%E5%BE%8B)
 
 > 在网络理论中，系统的价值约等于系统用户数的平方。
 
@@ -287,7 +316,7 @@ _(图片来源: By Jeremykemp at English Wikipedia, CC BY-SA 3.0, https://common
 
 ### 过早优化效应 (Premature Optimization Effect)
 
-[英文在线网站](http://wiki.c2.com/?PrematureOptimization)
+- [英文在线网站](http://wiki.c2.com/?PrematureOptimization)
 
 > 过早优化是万恶之源。
 >
@@ -318,7 +347,7 @@ _(图片来源: By Jeremykemp at English Wikipedia, CC BY-SA 3.0, https://common
 
 ### 里德定律 (Reed's Law)
 
-[英文维基百科](https://en.wikipedia.org/wiki/Reed's_law)
+- [英文维基百科](https://en.wikipedia.org/wiki/Reed's_law)
 
 > 大型网络，尤其是社交网络的效用会随着网络的大小呈指数级扩增。
 
@@ -344,7 +373,7 @@ _(图片来源: By Jeremykemp at English Wikipedia, CC BY-SA 3.0, https://common
 
 > 在某种程度上，所有非平凡的抽象都是有泄漏的。
 >
-> ([乔尔斯·波尔斯基](https://twitter.com/spolsky))
+> [乔尔斯·波尔斯基](https://twitter.com/spolsky) (Joel Spolsky)
 
 该定律指出，通常用于简化复杂系统的抽象，在某些情况下将底层系统泄漏出来，使得抽象表现出意外的行为。
 
@@ -411,13 +440,12 @@ Spotify 模型还普及了部落、行会以及章节的概念，这些是组织
 
 ### 惠顿定律 (Wheaton's Law)
 
-[网站链接](http://www.wheatonslaw.com/)
-
-[官方节日](https://dontbeadickday.com/)
+- [网站链接](http://www.wheatonslaw.com/)
+- [官方节日](https://dontbeadickday.com/)
 
 > 不要像个傻子一样。
 >
-> _威尔 · 惠顿 (Wil Wheaton)_
+> _威尔·惠顿 (Wil Wheaton)_
 
 这条定律由威尔 · 惠顿（曾出演过星际迷航：下一代、生活大爆炸）创造，这个简洁而有力的定律旨在专业组织内营造和谐和尊重的环境。它可以在与同事交谈、代码审查、反驳观点和批评的时候派上用场。而且通常情况下，人们之间的专业交互也同样适用。
 
@@ -427,12 +455,12 @@ Spotify 模型还普及了部落、行会以及章节的概念，这些是组织
 
 ### 呆伯特法则 (The Dilbert Principle)
 
-[英文维基百科](https://en.wikipedia.org/wiki/Dilbert_principle)
-[中文维基百科](https://zh.wikipedia.org/wiki/%E5%91%86%E4%BC%AF%E7%89%B9%E6%B3%95%E5%89%87)
+- [英文维基百科](https://en.wikipedia.org/wiki/Dilbert_principle)
+- [中文维基百科](https://zh.wikipedia.org/wiki/%E5%91%86%E4%BC%AF%E7%89%B9%E6%B3%95%E5%89%87)
 
 > 公司会倾向于系统地将工作能力差的员工提升到管理层，以使他们脱离工作流程。
 >
-> 史考特·亚当斯
+> _史考特·亚当斯 (Scott Adams)_
 
 呆伯特原则是由史考特·亚当斯 (Dilbert 漫画连环画的创建者) 开发的一个管理概念，灵感来源于[彼得原理](#%e5%bd%bc%e5%be%97%e5%8e%9f%e7%90%86-the-peter-principle)。根据呆伯特原则，工作能力差的员工会被提升到管理层，从而限制他们所能造成的损害。亚当斯首先在 1995 年《华尔街日报》的一篇文章中解释了这一原则，随后在他 1996 年的商业书籍《呆伯特原则》中进行了扩展。
 
@@ -467,12 +495,12 @@ Spotify 模型还普及了部落、行会以及章节的概念，这些是组织
 
 ### 彼得原理 (The Peter Principle)
 
-[英文维基百科](https://en.wikipedia.org/wiki/Peter_principle)
-[中文维基百科](https://zh.wikipedia.org/wiki/%E5%BD%BC%E5%BE%97%E5%8E%9F%E7%90%86)
+- [英文维基百科](https://en.wikipedia.org/wiki/Peter_principle)
+- [中文维基百科](https://zh.wikipedia.org/wiki/%E5%BD%BC%E5%BE%97%E5%8E%9F%E7%90%86)
 
 > 在等级制度中，人往往会被提升到他们的“无法胜任的水平”。
 >
-> 劳伦斯·彼得
+> _劳伦斯·彼得 (Laurence J. Peter)_
 
 这是由劳伦斯·彼得提出的一个管理概念。彼得原理认为，擅长工作的人会得到提升，直到他们达到不再成功的水平 (即他们所“无法胜任的水平”)。基于此，由于他们资历更高，被公司开除的可能性较小 (除非他们表现非常糟糕)。而且他们将继续担任几乎没有本职技能的职位，即使那些原本让他们成功的能力在新工作中并无必要。
 
