@@ -10,6 +10,8 @@
 
 喜欢点 **star** 、关注点 **watch** 、贡献点 **fork** 。翻译错漏之处，欢迎指正！
 
+招聘阿里前端，部门缺前端，双休，有兴趣的可以投递到我的邮箱，帮忙内推 stevexu.xq@alibaba-inc.com
+
 - [介绍](#%e4%bb%8b%e7%bb%8d)
 - [定律](#%e5%ae%9a%e5%be%8b)
   - [阿姆达尔定律 (Amdahl's Law)](#%e9%98%bf%e5%a7%86%e8%be%be%e5%b0%94%e5%ae%9a%e5%be%8b-amdahls-law)
@@ -722,6 +724,4 @@ KISS 原则指明了如果大多数的系统能够保持简单而非复杂化，
 
 随意给 [hacker-laws](https://github.com/dwmkerr/hacker-laws) 和 [hacker-laws-zh](https://github.com/nusr/hacker-laws-zh) 提 [Issue](https://github.com/dwmkerr/hacker-laws/issues) 或者 [Pull Request](https://github.com/dwmkerr/hacker-laws/pulls)。
 
-## 招聘
 
-我是阿里的前端工程师，部门急缺前端，双休，有兴趣的可以投递到我的邮箱，帮忙内推 stevexu.xq@alibaba-inc.com
