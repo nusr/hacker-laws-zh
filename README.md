@@ -15,6 +15,7 @@
 - [介绍](#%e4%bb%8b%e7%bb%8d)
 - [定律](#%e5%ae%9a%e5%be%8b)
   - [阿姆达尔定律 (Amdahl's Law)](#%e9%98%bf%e5%a7%86%e8%be%be%e5%b0%94%e5%ae%9a%e5%be%8b-amdahls-law)
+  - [破窗效应 (The Broken Windows Theory)](#%e7%a0%b4%e7%aa%97%e6%95%88%e5%ba%94-the-broken-windows-theory)
   - [布鲁克斯法则 (Brooks's Law)](#%e5%b8%83%e9%b2%81%e5%85%8b%e6%96%af%e6%b3%95%e5%88%99-brookss-law)
   - [康威定律 (Conway's Law)](#%e5%ba%b7%e5%a8%81%e5%ae%9a%e5%be%8b-conways-law)
   - [坎宁汉姆定律 (Cunningham's Law)](#%e5%9d%8e%e5%ae%81%e6%b1%89%e5%a7%86%e5%ae%9a%e5%be%8b-cunninghams-law)
@@ -24,7 +25,7 @@
   - [汉隆的剃刀（Hanlon's Razor）](#%e6%b1%89%e9%9a%86%e7%9a%84%e5%89%83%e5%88%80hanlons-razor)
   - [侯世达定律 (Hofstadter's Law)](#%e4%be%af%e4%b8%96%e8%be%be%e5%ae%9a%e5%be%8b-hofstadters-law)
   - [哈伯特定律 (Hutber's Law)](#%e5%93%88%e4%bc%af%e7%89%b9%e5%ae%9a%e5%be%8b-hutbers-law)
-  - [技术成熟度曲线 (The Hype Cycle & Amara's Law)](#%e6%8a%80%e6%9c%af%e6%88%90%e7%86%9f%e5%ba%a6%e6%9b%b2%e7%ba%bf-the-hype-cycle--amaras-law)
+  - [技术成熟度曲线 (The Hype Cycle or Amara's Law)](#%e6%8a%80%e6%9c%af%e6%88%90%e7%86%9f%e5%ba%a6%e6%9b%b2%e7%ba%bf-the-hype-cycle-or-amaras-law)
   - [隐式接口定律 (Hyrum's Law or The Law of Implicit Interfaces)](#%e9%9a%90%e5%bc%8f%e6%8e%a5%e5%8f%a3%e5%ae%9a%e5%be%8b-hyrums-law-or-the-law-of-implicit-interfaces)
   - [梅特卡夫定律 (Metcalfe's Law)](#%e6%a2%85%e7%89%b9%e5%8d%a1%e5%a4%ab%e5%ae%9a%e5%be%8b-metcalfes-law)
   - [摩尔定律 (Moore's Law)](#%e6%91%a9%e5%b0%94%e5%ae%9a%e5%be%8b-moores-law)
@@ -57,7 +58,6 @@
   - [分布式计算的谬论 (The Fallacies of Distributed Computing)](#%e5%88%86%e5%b8%83%e5%bc%8f%e8%ae%a1%e7%ae%97%e7%9a%84%e8%b0%ac%e8%ae%ba-the-fallacies-of-distributed-computing)
 - [阅读清单](#%e9%98%85%e8%af%bb%e6%b8%85%e5%8d%95)
 - [TODO](#todo)
-- [招聘](#%e6%8b%9b%e8%81%98)
 
 ## 介绍
 
@@ -92,6 +92,25 @@ _(图片来源: By Daniels220 at English Wikipedia, Creative Commons Attribution
 
 - [布鲁克斯法则](#%E5%B8%83%E9%B2%81%E5%85%8B%E6%96%AF%E6%B3%95%E5%88%99-brookss-law)
 - [摩尔定律](#%E6%91%A9%E5%B0%94%E5%AE%9A%E5%BE%8B-moores-law)
+
+### 破窗效应 (The Broken Windows Theory)
+
+- [英文维基百科](https://en.wikipedia.org/wiki/Broken_windows_theory)
+- [中文维基百科](https://zh.wikipedia.org/wiki/%E7%A0%B4%E7%AA%97%E6%95%88%E5%BA%94)
+
+在破窗理论中认为，一些明显的犯罪迹象(或缺乏环保意识)会导致进一步的、更严重的犯罪(或环境的进一步恶化)。
+
+破窗理论已应用于软件开发中，它表明劣质代码(或 [Technical Debt](#TODO))可能会影响后续优化的效率，从而进一步造成代码劣化；随着时间的推移，这种效应将会导致代码质量大幅下降。
+
+参见：
+
+- [Technical Debt](#TODO)
+
+例子：
+
+- [《程序员修炼之道：软件熵》(The Pragmatic Programming: Software Entropy)](https://pragprog.com/the-pragmatic-programmer/extracts/software-entropy)
+- [《Coding Horror：破窗效应》(Coding Horror: The Broken Window Theory)](https://blog.codinghorror.com/the-broken-window-theory/)
+- [《开源：编程之乐 - 破窗效应》(OpenSource: Joy of Programming - The Broken Window Theory)](https://opensourceforu.com/2011/05/joy-of-programming-broken-window-theory/)
 
 ### 布鲁克斯法则 (Brooks's Law)
 
@@ -228,7 +247,7 @@ _(图片来源: By Daniels220 at English Wikipedia, Creative Commons Attribution
 
 例如，某个端点的响应延迟减少，就可能导致请求流中的吞吐量和容量问题进一步增加，并影响到另一个完全不同的子系统。
 
-### 技术成熟度曲线 (The Hype Cycle & Amara's Law)
+### 技术成熟度曲线 (The Hype Cycle or Amara's Law)
 
 - [英文维基百科](https://en.wikipedia.org/wiki/Hype_cycle)
 - [中文维基百科](https://zh.wikipedia.org/wiki/%E6%8A%80%E6%9C%AF%E6%88%90%E7%86%9F%E5%BA%A6%E6%9B%B2%E7%BA%BF)
@@ -723,5 +742,4 @@ KISS 原则指明了如果大多数的系统能够保持简单而非复杂化，
 嗨！如果你读到这里，点击了一个我尚未编写的主题链接，我感到很抱歉。这是正在进行中的工作！
 
 随意给 [hacker-laws](https://github.com/dwmkerr/hacker-laws) 和 [hacker-laws-zh](https://github.com/nusr/hacker-laws-zh) 提 [Issue](https://github.com/dwmkerr/hacker-laws/issues) 或者 [Pull Request](https://github.com/dwmkerr/hacker-laws/pulls)。
-
 
