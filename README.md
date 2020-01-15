@@ -20,7 +20,7 @@
   - [邓巴数字 (Dunbar's Number)](#%e9%82%93%e5%b7%b4%e6%95%b0%e5%ad%97-dunbars-number)
   - [盖尔定律 (Gall's Law)](#%e7%9b%96%e5%b0%94%e5%ae%9a%e5%be%8b-galls-law)
   - [古德哈特定律 (Goodhart's Law)](#%e5%8f%a4%e5%be%b7%e5%93%88%e7%89%b9%e5%ae%9a%e5%be%8b-goodharts-law)
-  - [汉隆的剃刀（Hanlon's Razor）](#%e6%b1%89%e9%9a%86%e7%9a%84%e5%89%83%e5%88%80hanlons-razor)
+  - [汉隆的剃刀 (Hanlon's Razor)](#%e6%b1%89%e9%9a%86%e7%9a%84%e5%89%83%e5%88%80-hanlons-razor)
   - [侯世达定律 (Hofstadter's Law)](#%e4%be%af%e4%b8%96%e8%be%be%e5%ae%9a%e5%be%8b-hofstadters-law)
   - [哈伯特定律 (Hutber's Law)](#%e5%93%88%e4%bc%af%e7%89%b9%e5%ae%9a%e5%be%8b-hutbers-law)
   - [技术成熟度曲线 (The Hype Cycle or Amara's Law)](#%e6%8a%80%e6%9c%af%e6%88%90%e7%86%9f%e5%ba%a6%e6%9b%b2%e7%ba%bf-the-hype-cycle-or-amaras-law)
@@ -28,6 +28,7 @@
   - [梅特卡夫定律 (Metcalfe's Law)](#%e6%a2%85%e7%89%b9%e5%8d%a1%e5%a4%ab%e5%ae%9a%e5%be%8b-metcalfes-law)
   - [摩尔定律 (Moore's Law)](#%e6%91%a9%e5%b0%94%e5%ae%9a%e5%be%8b-moores-law)
   - [墨菲定律 (Murphy's Law / Sod's Law)](#%e5%a2%a8%e8%8f%b2%e5%ae%9a%e5%be%8b-murphys-law--sods-law)
+  - [奥卡姆剃刀 (Occam's Razor)](#%e5%a5%a5%e5%8d%a1%e5%a7%86%e5%89%83%e5%88%80-occams-razor)
   - [帕金森定理 (Parkinson's Law)](#%e5%b8%95%e9%87%91%e6%a3%ae%e5%ae%9a%e7%90%86-parkinsons-law)
   - [过早优化效应 (Premature Optimization Effect)](#%e8%bf%87%e6%97%a9%e4%bc%98%e5%8c%96%e6%95%88%e5%ba%94-premature-optimization-effect)
   - [普特定律 (Putt's Law)](#%e6%99%ae%e7%89%b9%e5%ae%9a%e5%be%8b-putts-law)
@@ -205,7 +206,7 @@ _(图片来源: By Daniels220 at English Wikipedia, Creative Commons Attribution
 - [古德哈特定律：错误的测量如何导致不道德的行为](https://coffeeandjunk.com/goodharts-campbells-law/)
 - [呆伯特与无 bug 软件](https://dilbert.com/strip/1995-11-13)
 
-### 汉隆的剃刀（Hanlon's Razor）
+### 汉隆的剃刀 (Hanlon's Razor)
 
 - [英文维基百科](https://en.wikipedia.org/wiki/Hanlon%27s_razor)
 - [中文维基百科](https://zh.wikipedia.org/wiki/%E6%B1%89%E9%9A%86%E7%9A%84%E5%89%83%E5%88%80)
@@ -319,6 +320,28 @@ _(图片来源: By Jeremykemp at English Wikipedia, CC BY-SA 3.0, https://common
 
 - [Confirmation Bias](#TODO)
 - [Selection Bias](#TODO)
+
+### 奥卡姆剃刀 (Occam's Razor)
+
+- [英文维基百科](https://en.wikipedia.org/wiki/Occam's_razor)
+- [中文维基百科](https://zh.wikipedia.org/wiki/%E5%A5%A5%E5%8D%A1%E5%A7%86%E5%89%83%E5%88%80)
+
+> 如无必要，勿增实体。
+>
+> 奥卡姆的威廉 (William of Ockham)
+
+奥卡姆剃刀指出，在几种可能的解决方案之中，最有可能的解决方案便是概念和假设最少的那个。因为这个解决方案最为简单，只解决了问题，并且没有引入额外的复杂度和可能的负面后果。
+
+参见：
+
+- [你不需要它原则 (YAGNI)](#%e4%bd%a0%e4%b8%8d%e9%9c%80%e8%a6%81%e5%ae%83%e5%8e%9f%e5%88%99-yagni)
+- [没有银弹：软件工程的本质性与附属性工作](https://zh.wikipedia.org/wiki/%E6%B2%A1%E6%9C%89%E9%93%B6%E5%BC%B9)
+- [No Silver Bullet: Accidental Complexity and Essential Complexity](https://en.wikipedia.org/wiki/No_Silver_Bullet)
+
+例子：
+
+- [精益软件开发：消除浪费](https://zh.wikipedia.org/wiki/%E7%B2%BE%E7%9B%8A%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91#%E6%B6%88%E9%99%A4%E6%B5%AA%E8%B4%B9)
+- [Lean Software Development: Eliminate Waste](https://en.wikipedia.org/wiki/Lean_software_development#Eliminate_waste)
 
 ### 帕金森定理 (Parkinson's Law)
 
