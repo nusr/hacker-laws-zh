@@ -25,6 +25,7 @@
   - [哈伯特定律 (Hutber's Law)](#%e5%93%88%e4%bc%af%e7%89%b9%e5%ae%9a%e5%be%8b-hutbers-law)
   - [技术成熟度曲线 (The Hype Cycle or Amara's Law)](#%e6%8a%80%e6%9c%af%e6%88%90%e7%86%9f%e5%ba%a6%e6%9b%b2%e7%ba%bf-the-hype-cycle-or-amaras-law)
   - [隐式接口定律 (Hyrum's Law or The Law of Implicit Interfaces)](#%e9%9a%90%e5%bc%8f%e6%8e%a5%e5%8f%a3%e5%ae%9a%e5%be%8b-hyrums-law-or-the-law-of-implicit-interfaces)
+  - [柯林汉定律 (Kernighan's Law)](#%e6%9f%af%e6%9e%97%e6%b1%89%e5%ae%9a%e5%be%8b-kernighans-law)
   - [梅特卡夫定律 (Metcalfe's Law)](#%e6%a2%85%e7%89%b9%e5%8d%a1%e5%a4%ab%e5%ae%9a%e5%be%8b-metcalfes-law)
   - [摩尔定律 (Moore's Law)](#%e6%91%a9%e5%b0%94%e5%ae%9a%e5%be%8b-moores-law)
   - [墨菲定律 (Murphy's Law / Sod's Law)](#%e5%a2%a8%e8%8f%b2%e5%ae%9a%e5%be%8b-murphys-law--sods-law)
@@ -269,7 +270,7 @@ _(图片来源: By Jeremykemp at English Wikipedia, CC BY-SA 3.0, https://common
 
 > 当 API 有足够多的用户时，你在合同中的承诺已不重要：你系统的所有可观察行为都将被某些人所依赖。
 >
-> _海伦·赖特（Hyrum Wright）_
+> _海伦·赖特 (Hyrum Wright)_
 
 隐式接口定律表明，当你的 API 有足够多的用户时，API 的所有行为（包括那些未囊括在公共说明中的一部分）最终都会被其他人所依赖。 一个简单的例子是 API 的响应时间这种非功能性因素，还有一个更微妙的例子是：用户使用正则表达式判断错误信息的类型时，即使 API 的公共说明没有说明消息的内容，来指示用户错误的类型，一些用户也可能会使用并更改该消息，而这实际上会破坏 API 的使用。
 
@@ -278,6 +279,24 @@ _(图片来源: By Jeremykemp at English Wikipedia, CC BY-SA 3.0, https://common
 - [抽象泄漏定律](#%E6%BC%8F%E6%B4%9E%E6%8A%BD%E8%B1%A1%E5%AE%9A%E5%BE%8B-the-law-of-leaky-abstractions)
 - [XKCD 1172](https://xkcd.com/1172/)
 
+### 柯林汉定律 (Kernighan's Law)
+
+> 调试在一开始就比编写程序困难一倍。因此，按照定义，如果你的代码写得非常巧妙，那么你就没有足够的能力来调试它。
+>
+> _布莱恩·柯林汉 (Brian Kernighan)_
+
+柯林汉定律是以[布莱恩·柯林汉](https://zh.wikipedia.org/wiki/%E5%B8%83%E8%90%8A%E6%81%A9%C2%B7%E6%9F%AF%E6%9E%97%E6%BC%A2) ([Brian Kernighan](https://en.wikipedia.org/wiki/Brian_Kernighan)) 的名字命名的，引述自柯林汉和普劳格 (P.J. Plauger) 的《[编程格调](https://book.douban.com/subject/26335120/)》 ([The Elements of Programming Style](https://en.wikipedia.org/wiki/The_Elements_of_Programming_Style)) 一书中的一句话：
+
+> 每个人都知道，调试在一开始就比编写程序困难一倍。那么，如果您在编写它时尽可能地巧妙，又如何来调试它？
+
+尽管这有些夸张，但它提出的论点是，简单的代码会比复杂的代码更可取，因为调试复杂代码的过程中出现的任何问题都会十分棘手，甚至无法解决。
+
+参见：
+
+- [KISS 原则 (The KISS Principle)](#kiss-%e5%8e%9f%e5%88%99-the-kiss-principle)
+- [Unix 哲学 (The Unix Philosophy)](#unix-%e5%93%b2%e5%ad%a6-the-unix-philosophy)
+- [奥卡姆剃刀 (Occam's Razor)](#%e5%a5%a5%e5%8d%a1%e5%a7%86%e5%89%83%e5%88%80-occams-razor)
+
 ### 梅特卡夫定律 (Metcalfe's Law)
 
 - [英文维基百科](https://en.wikipedia.org/wiki/Metcalfe's_law)
@@ -285,7 +304,7 @@ _(图片来源: By Jeremykemp at English Wikipedia, CC BY-SA 3.0, https://common
 
 > 在网络理论中，系统的价值约等于系统用户数的平方。
 
-这个定律基于一个系统中可能的连接对数量，并且与[里德定律](#%e9%87%8c%e5%be%b7%e5%ae%9a%e5%be%8b-reeds-law)十分相近。奥德利兹科 (Odlyzko) 和其他人认为，里德定律和梅特卡夫定律夸大了系统本身的价值，因为它们没有考虑到网络效应中人类认知的限制。
+这个定律基于一个系统中可能的连接对数量，并且与[里德定律 (Reed's Law)](#%e9%87%8c%e5%be%b7%e5%ae%9a%e5%be%8b-reeds-law) 十分相近。奥德利兹科 (Odlyzko) 和其他人认为，里德定律和梅特卡夫定律夸大了系统本身的价值，因为它们没有考虑到网络效应中人类认知的限制。
 
 参见:
 
@@ -380,14 +399,14 @@ _(图片来源: By Jeremykemp at English Wikipedia, CC BY-SA 3.0, https://common
 
 > 每一个技术层次，假以时日，能力将逆转。
 
-这些结论表明，由于各种选择标准和群体组织的趋势，技术组织的工作层面将有一些技术人员，以及一些不了解复杂性和挑战的管理人员。这种现象可能是由于 [The Peter Principe](#TODO) 或 [Dilbert's Law](#TODO) 造成的。
+这些结论表明，由于各种选择标准和群体组织的趋势，技术组织的工作层面将有一些技术人员，以及一些不了解复杂性和挑战的管理人员。这种现象可能是由于 [彼得原理 (The Peter Principle)](#%e5%bd%bc%e5%be%97%e5%8e%9f%e7%90%86-the-peter-principle) 或 [呆伯特法则 (The Dilbert Principle)](#%e5%91%86%e4%bc%af%e7%89%b9%e6%b3%95%e5%88%99-the-dilbert-principle) 造成的。
 
 但是，应该强调的是，诸如此类的定律是一种广泛的概括，可能适用于某些类型的组织，而不适用于其他组织。
 
 参见：
 
-- [The Peter Principe](#TODO)
-- [Dilbert's Law](#TODO).
+- [彼得原理 (The Peter Principle)](#%e5%bd%bc%e5%be%97%e5%8e%9f%e7%90%86-the-peter-principle)
+- [呆伯特法则 (The Dilbert Principle)](#%e5%91%86%e4%bc%af%e7%89%b9%e6%b3%95%e5%88%99-the-dilbert-principle)
 
 ### 里德定律 (Reed's Law)
 
@@ -744,8 +763,7 @@ KISS 原则指明了如果大多数的系统能够保持简单而非复杂化，
 
 参见:
 
-- [寻找分布式计算的谬误（第一部分） - Vaidehi Joshi
-  on Medium](https://medium.com/baseds/foraging-for-the-fallacies-of-distributed-computing-part-1-1b35c3b85b53)
+- [寻找分布式计算的谬误（第一部分） - Vaidehi Joshion Medium](https://medium.com/baseds/foraging-for-the-fallacies-of-distributed-computing-part-1-1b35c3b85b53)
 - [十年后，德意志 (Peter Deutsch) 的谬论](http://java.sys-con.com/node/38665)
 
 ## 阅读清单
