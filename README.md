@@ -742,7 +742,7 @@ KISS 原则指明了如果大多数的系统能够保持简单而非复杂化，
 
 ### 分布式计算的谬论 (The Fallacies of Distributed Computing)
 
-[英文维基百科](https://en.wikipedia.org/wiki/You_aren%https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing)
+[英文维基百科](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing)
 
 又称 _网络计算的谬误_，这是一系列关于分布式计算的猜想（或者看法），这些猜想可能会引起软件开发中的失败。这些假设是：
 
@@ -751,7 +751,7 @@ KISS 原则指明了如果大多数的系统能够保持简单而非复杂化，
 - 带宽无限
 - 网络安全
 - 拓扑恒定
-- 有管理员
+- 单一管理员
 - 运输成本为零
 - 网络为同构的
 
