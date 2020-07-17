@@ -10,53 +10,63 @@
 
 喜欢点 **star** 、关注点 **watch** 、贡献点 **fork** 。翻译错漏之处，欢迎指正！
 
-- [介绍](#%e4%bb%8b%e7%bb%8d)
-- [定律](#%e5%ae%9a%e5%be%8b)
-  - [阿姆达尔定律 (Amdahl's Law)](#%e9%98%bf%e5%a7%86%e8%be%be%e5%b0%94%e5%ae%9a%e5%be%8b-amdahls-law)
-  - [破窗效应 (The Broken Windows Theory)](#%e7%a0%b4%e7%aa%97%e6%95%88%e5%ba%94-the-broken-windows-theory)
-  - [布鲁克斯法则 (Brooks's Law)](#%e5%b8%83%e9%b2%81%e5%85%8b%e6%96%af%e6%b3%95%e5%88%99-brookss-law)
-  - [康威定律 (Conway's Law)](#%e5%ba%b7%e5%a8%81%e5%ae%9a%e5%be%8b-conways-law)
-  - [坎宁汉姆定律 (Cunningham's Law)](#%e5%9d%8e%e5%ae%81%e6%b1%89%e5%a7%86%e5%ae%9a%e5%be%8b-cunninghams-law)
-  - [邓巴数字 (Dunbar's Number)](#%e9%82%93%e5%b7%b4%e6%95%b0%e5%ad%97-dunbars-number)
-  - [盖尔定律 (Gall's Law)](#%e7%9b%96%e5%b0%94%e5%ae%9a%e5%be%8b-galls-law)
-  - [古德哈特定律 (Goodhart's Law)](#%e5%8f%a4%e5%be%b7%e5%93%88%e7%89%b9%e5%ae%9a%e5%be%8b-goodharts-law)
-  - [汉隆的剃刀 (Hanlon's Razor)](#%e6%b1%89%e9%9a%86%e7%9a%84%e5%89%83%e5%88%80-hanlons-razor)
-  - [侯世达定律 (Hofstadter's Law)](#%e4%be%af%e4%b8%96%e8%be%be%e5%ae%9a%e5%be%8b-hofstadters-law)
-  - [哈伯特定律 (Hutber's Law)](#%e5%93%88%e4%bc%af%e7%89%b9%e5%ae%9a%e5%be%8b-hutbers-law)
-  - [技术成熟度曲线 (The Hype Cycle or Amara's Law)](#%e6%8a%80%e6%9c%af%e6%88%90%e7%86%9f%e5%ba%a6%e6%9b%b2%e7%ba%bf-the-hype-cycle-or-amaras-law)
-  - [隐式接口定律 (Hyrum's Law or The Law of Implicit Interfaces)](#%e9%9a%90%e5%bc%8f%e6%8e%a5%e5%8f%a3%e5%ae%9a%e5%be%8b-hyrums-law-or-the-law-of-implicit-interfaces)
-  - [柯林汉定律 (Kernighan's Law)](#%e6%9f%af%e6%9e%97%e6%b1%89%e5%ae%9a%e5%be%8b-kernighans-law)
-  - [梅特卡夫定律 (Metcalfe's Law)](#%e6%a2%85%e7%89%b9%e5%8d%a1%e5%a4%ab%e5%ae%9a%e5%be%8b-metcalfes-law)
-  - [摩尔定律 (Moore's Law)](#%e6%91%a9%e5%b0%94%e5%ae%9a%e5%be%8b-moores-law)
-  - [墨菲定律 (Murphy's Law / Sod's Law)](#%e5%a2%a8%e8%8f%b2%e5%ae%9a%e5%be%8b-murphys-law--sods-law)
-  - [奥卡姆剃刀 (Occam's Razor)](#%e5%a5%a5%e5%8d%a1%e5%a7%86%e5%89%83%e5%88%80-occams-razor)
-  - [帕金森定理 (Parkinson's Law)](#%e5%b8%95%e9%87%91%e6%a3%ae%e5%ae%9a%e7%90%86-parkinsons-law)
-  - [过早优化效应 (Premature Optimization Effect)](#%e8%bf%87%e6%97%a9%e4%bc%98%e5%8c%96%e6%95%88%e5%ba%94-premature-optimization-effect)
-  - [普特定律 (Putt's Law)](#%e6%99%ae%e7%89%b9%e5%ae%9a%e5%be%8b-putts-law)
-  - [里德定律 (Reed's Law)](#%e9%87%8c%e5%be%b7%e5%ae%9a%e5%be%8b-reeds-law)
-  - [复杂性守恒定律 (The Law of Conservation of Complexity or Tesler's Law)](#%e5%a4%8d%e6%9d%82%e6%80%a7%e5%ae%88%e6%81%92%e5%ae%9a%e5%be%8b-the-law-of-conservation-of-complexity-or-teslers-law)
-  - [抽象泄漏定律 (The Law of Leaky Abstractions)](#%e6%8a%bd%e8%b1%a1%e6%b3%84%e6%bc%8f%e5%ae%9a%e5%be%8b-the-law-of-leaky-abstractions)
-  - [帕金森琐碎定理 (The Law of Triviality)](#%e5%b8%95%e9%87%91%e6%a3%ae%e7%90%90%e7%a2%8e%e5%ae%9a%e7%90%86-the-law-of-triviality)
-  - [Unix 哲学 (The Unix Philosophy)](#unix-%e5%93%b2%e5%ad%a6-the-unix-philosophy)
-  - [Spotify 模型 (The Spotify Model)](#spotify-%e6%a8%a1%e5%9e%8b-the-spotify-model)
-  - [沃德勒定律 (Wadler's Law)](#%e6%b2%83%e5%be%b7%e5%8b%92%e5%ae%9a%e5%be%8b-wadlers-law)
-  - [惠顿定律 (Wheaton's Law)](#%e6%83%a0%e9%a1%bf%e5%ae%9a%e5%be%8b-wheatons-law)
-- [原则](#%e5%8e%9f%e5%88%99)
-  - [呆伯特法则 (The Dilbert Principle)](#%e5%91%86%e4%bc%af%e7%89%b9%e6%b3%95%e5%88%99-the-dilbert-principle)
-  - [帕累托法则 (The Pareto Principle or The 80/20 Rule)](#%e5%b8%95%e7%b4%af%e6%89%98%e6%b3%95%e5%88%99-the-pareto-principle-or-the-8020-rule)
-  - [彼得原理 (The Peter Principle)](#%e5%bd%bc%e5%be%97%e5%8e%9f%e7%90%86-the-peter-principle)
-  - [鲁棒性原则 (The Robustness Principle or Postel's Law)](#%e9%b2%81%e6%a3%92%e6%80%a7%e5%8e%9f%e5%88%99-the-robustness-principle-or-postels-law)
+- [介绍](#介绍)
+- [定律](#定律)
+  - [90-9-1 法则 (90–9–1 Principle or 1% Rule)](#90-9-1-法则-9091-principle-or-1-rule)
+  - [阿姆达尔定律 (Amdahl's Law)](#阿姆达尔定律-amdahls-law)
+  - [破窗效应 (The Broken Windows Theory)](#破窗效应-the-broken-windows-theory)
+  - [布鲁克斯法则 (Brooks's Law)](#布鲁克斯法则-brookss-law)
+  - [CAP 定理 (CAP Theorem or Brewer's Theorem)](#cap-定理-cap-theorem-or-brewers-theorem)
+  - [康威定律 (Conway's Law)](#康威定律-conways-law)
+  - [坎宁汉姆定律 (Cunningham's Law)](#坎宁汉姆定律-cunninghams-law)
+  - [邓巴数字 (Dunbar's Number)](#邓巴数字-dunbars-number)
+  - [费茨法则 (Fitts's Law)](#费茨法则-fittss-law)
+  - [盖尔定律 (Gall's Law)](#盖尔定律-galls-law)
+  - [古德哈特定律 (Goodhart's Law)](#古德哈特定律-goodharts-law)
+  - [汉隆的剃刀 (Hanlon's Razor)](#汉隆的剃刀-hanlons-razor)
+  - [席克定律 (Hick's Law or Hick-Hyman Law)](#席克定律-hicks-law-or-hick-hyman-law)
+  - [侯世达定律 (Hofstadter's Law)](#侯世达定律-hofstadters-law)
+  - [哈伯特定律 (Hutber's Law)](#哈伯特定律-hutbers-law)
+  - [技术成熟度曲线 (The Hype Cycle or Amara's Law)](#技术成熟度曲线-the-hype-cycle-or-amaras-law)
+  - [隐式接口定律 (Hyrum's Law or The Law of Implicit Interfaces)](#隐式接口定律-hyrums-law-or-the-law-of-implicit-interfaces)
+  - [柯林汉定律 (Kernighan's Law)](#柯林汉定律-kernighans-law)
+  - [林纳斯定律 (Linus's Law)](#林纳斯定律-linuss-law)
+  - [梅特卡夫定律 (Metcalfe's Law)](#梅特卡夫定律-metcalfes-law)
+  - [摩尔定律 (Moore's Law)](#摩尔定律-moores-law)
+  - [墨菲定律 (Murphy's Law / Sod's Law)](#墨菲定律-murphys-law--sods-law)
+  - [奥卡姆剃刀 (Occam's Razor)](#奥卡姆剃刀-occams-razor)
+  - [帕金森定理 (Parkinson's Law)](#帕金森定理-parkinsons-law)
+  - [过早优化效应 (Premature Optimization Effect)](#过早优化效应-premature-optimization-effect)
+  - [普特定律 (Putt's Law)](#普特定律-putts-law)
+  - [里德定律 (Reed's Law)](#里德定律-reeds-law)
+  - [复杂性守恒定律 (The Law of Conservation of Complexity or Tesler's Law)](#复杂性守恒定律-the-law-of-conservation-of-complexity-or-teslers-law)
+  - [得墨忒耳定律 (The Law of Demeter)](#得墨忒耳定律-the-law-of-demeter)
+  - [抽象泄漏定律 (The Law of Leaky Abstractions)](#抽象泄漏定律-the-law-of-leaky-abstractions)
+  - [帕金森琐碎定理 (The Law of Triviality)](#帕金森琐碎定理-the-law-of-triviality)
+  - [Unix 哲学 (The Unix Philosophy)](#unix-哲学-the-unix-philosophy)
+  - [Spotify 模型 (The Spotify Model)](#spotify-模型-the-spotify-model)
+  - [沃德勒定律 (Wadler's Law)](#沃德勒定律-wadlers-law)
+  - [惠顿定律 (Wheaton's Law)](#惠顿定律-wheatons-law)
+- [原则](#原则)
+  - [切斯特森围栏 (Chesterson's Fence)](#切斯特森围栏-chestersons-fence)
+  - [死海效应 (The Dead Sea Effect)](#死海效应-the-dead-sea-effect)
+  - [呆伯特法则 (The Dilbert Principle)](#呆伯特法则-the-dilbert-principle)
+  - [帕累托法则 (The Pareto Principle or The 80/20 Rule)](#帕累托法则-the-pareto-principle-or-the-8020-rule)
+  - [彼得原理 (The Peter Principle)](#彼得原理-the-peter-principle)
+  - [鲁棒性原则 (The Robustness Principle or Postel's Law)](#鲁棒性原则-the-robustness-principle-or-postels-law)
   - [SOLID](#solid)
-  - [单一功能原则 (The Single Responsibility Principle)](#%e5%8d%95%e4%b8%80%e5%8a%9f%e8%83%bd%e5%8e%9f%e5%88%99-the-single-responsibility-principle)
-  - [开闭原则 (The Open/Closed Principle)](#%e5%bc%80%e9%97%ad%e5%8e%9f%e5%88%99-the-openclosed-principle)
-  - [里氏替换原则 (The Liskov Substitution Principle)](#%e9%87%8c%e6%b0%8f%e6%9b%bf%e6%8d%a2%e5%8e%9f%e5%88%99-the-liskov-substitution-principle)
-  - [接口隔离原则 (The Interface Segregation Principle)](#%e6%8e%a5%e5%8f%a3%e9%9a%94%e7%a6%bb%e5%8e%9f%e5%88%99-the-interface-segregation-principle)
-  - [依赖反转原则 (The Dependency Inversion Principle)](#%e4%be%9d%e8%b5%96%e5%8f%8d%e8%bd%ac%e5%8e%9f%e5%88%99-the-dependency-inversion-principle)
-  - [不要重复你自己原则 (The DRY Principle)](#%e4%b8%8d%e8%a6%81%e9%87%8d%e5%a4%8d%e4%bd%a0%e8%87%aa%e5%b7%b1%e5%8e%9f%e5%88%99-the-dry-principle)
-  - [KISS 原则 (The KISS Principle)](#kiss-%e5%8e%9f%e5%88%99-the-kiss-principle)
-  - [你不需要它原则 (YAGNI)](#%e4%bd%a0%e4%b8%8d%e9%9c%80%e8%a6%81%e5%ae%83%e5%8e%9f%e5%88%99-yagni)
-  - [分布式计算的谬论 (The Fallacies of Distributed Computing)](#%e5%88%86%e5%b8%83%e5%bc%8f%e8%ae%a1%e7%ae%97%e7%9a%84%e8%b0%ac%e8%ae%ba-the-fallacies-of-distributed-computing)
-- [阅读清单](#%e9%98%85%e8%af%bb%e6%b8%85%e5%8d%95)
+  - [单一功能原则 (The Single Responsibility Principle)](#单一功能原则-the-single-responsibility-principle)
+  - [开闭原则 (The Open/Closed Principle)](#开闭原则-the-openclosed-principle)
+  - [里氏替换原则 (The Liskov Substitution Principle)](#里氏替换原则-the-liskov-substitution-principle)
+  - [接口隔离原则 (The Interface Segregation Principle)](#接口隔离原则-the-interface-segregation-principle)
+  - [依赖反转原则 (The Dependency Inversion Principle)](#依赖反转原则-the-dependency-inversion-principle)
+  - [不要重复你自己原则 (The DRY Principle)](#不要重复你自己原则-the-dry-principle)
+  - [KISS 原则 (The KISS Principle)](#kiss-原则-the-kiss-principle)
+  - [你不需要它原则 (YAGNI)](#你不需要它原则-yagni)
+  - [分布式计算的谬论 (The Fallacies of Distributed Computing)](#分布式计算的谬论-the-fallacies-of-distributed-computing)
+- [阅读清单](#阅读清单)
+- [在线资源](#在线资源)
+- [相关项目](#相关项目)
 - [TODO](#todo)
 
 ## 介绍
@@ -68,6 +78,21 @@
 ## 定律
 
 现在我们开始吧！
+
+### 90-9-1 法则 (90–9–1 Principle or 1% Rule)
+
+- [英文维基百科](https://en.wikipedia.org/wiki/1%25_rule_(Internet_culture))
+- [中文维基百科](https://zh.wikipedia.org/wiki/1%25%E6%B3%95%E5%88%99)
+
+90-9-1 法则表明，在诸如维基这样的互联网社区中，90% 的用户只看内容并不参与互动，9% 的用户会参与讨论，而只有 1% 的用户会创造内容。
+
+现实世界的例子：
+
+- 2014 年，对四个健康的数字社交网络进行的一项研究发现，排名前 1% 的人创造了 73% 的帖子，紧随其后的 9% 平均占 25%，其余的 90% 的人平均占 2%。 ([参考](https://www.jmir.org/2014/2/e33/))
+
+参见：
+
+- [帕累托法则 (The Pareto Principle or The 80/20 Rule)](#帕累托法则-the-pareto-principle-or-the-8020-rule)
 
 ### 阿姆达尔定律 (Amdahl's Law)
 
@@ -82,7 +107,7 @@
 
 ![阿姆达尔定律](./images/amdahls_law.png)
 
-_(图片来源: By Daniels220 at English Wikipedia, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg)_
+_(图片来源：By Daniels220 at English Wikipedia, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/File:AmdahlsLaw.svg)_
 
 可以看出，50％ 并行化的程序在使用大于 10 个处理单元之后的速度提升收效甚微，而 95％ 并行化的程序在使用超过一千个处理单元之后仍然可以显著提升速度。
 
@@ -129,6 +154,33 @@ _(图片来源: By Daniels220 at English Wikipedia, Creative Commons Attribution
 - [Death March](#todo)
 - [阅读清单：《人月神话》](#%E9%98%85%E8%AF%BB%E6%B8%85%E5%8D%95)
 
+### CAP 定理 (CAP Theorem or Brewer's Theorem)
+
+- [英文维基百科](https://en.wikipedia.org/wiki/CAP_theorem)
+- [中文维基百科](https://zh.wikipedia.org/wiki/CAP%E5%AE%9A%E7%90%86)
+
+CAP 定理由 Eric Brewer 所定义，它指出对于分布式数据存储来说，不可能同时满足以下三点：
+
+- 一致性 (Consistency)：在读取数据时，每个请求都会接收到 _最新的_ 数据，或者返回错误。
+- 可用性 (Availability): 在读取数据时，每个请求都会接收到一个 _非错误的响应_，但不能保证该数据是 _最新的_ 数据。
+- 分区容错性 (Partition Tolerance)：当节点之间任意数量的网络请求失败时，系统能按预期继续运行。
+
+核心论证如下：因为无法保证不会存在网络分区（参见[分布式计算的谬论 (The Fallacies of Distributed Computing)](#分布式计算的谬论-the-fallacies-of-distributed-computing)），所以在分区的情况下，我们可以选择取消当前操作（增加一致性并降低可用性），或者选择继续进行该操作（增加可用性降低一致性）。
+
+该定理的名字来源于一致性 (Consistency)、可用性 (Availability)、分区容错性 (Partition Tolerance) 的首字母。请注意，这与 [_ACID_](#TODO) 没有任何关系，因为其对一致性有另一种定义。最近发展出来的 [PACELC](#TODO) 定理与 CAP 定理相比，增加了对网络 _未_ 分区时（即系统按预期操作时）的延迟和一致性的约束。
+
+大多数的现代数据库平台会通过向数据库用户提供选项的方式，来选择是需要高度可用的操作（比如“脏读 (dirty read)”），还是高度一致的操作(比如“法定确认写写入 (quorum acknowledged write)”)——这间接地承认了这一定理。
+
+现实世界的例子：
+
+- [Inside Google Cloud Spanner and the CAP Theorem](https://cloud.google.com/blog/products/gcp/inside-cloud-spanner-and-the-cap-theorem) - 该文详细介绍了 Cloud Spanner 是如何工作的，表面上该平台似乎能够保证 CAP 三者，但实际上依然是一个 CP 系统，即只有一致性和分区容错性。
+
+参见：
+
+- [ACID](#TODO)
+- [分布式计算的谬论 (The Fallacies of Distributed Computing)](#分布式计算的谬论-the-fallacies-of-distributed-computing)
+- [PACELC](#TODO)
+
 ### 康威定律 (Conway's Law)
 
 - [英文维基百科](https://en.wikipedia.org/wiki/Conway%27s_law)
@@ -163,6 +215,25 @@ _(图片来源: By Daniels220 at English Wikipedia, Creative Commons Attribution
 参见：
 
 - [康威定律](#%e5%ba%b7%e5%a8%81%e5%ae%9a%e5%be%8b-conways-law)
+
+### 费茨法则 (Fitts's Law)
+
+- [英文维基百科](https://en.wikipedia.org/wiki/Fitts%27s_law)
+- [中文维基百科](https://zh.wikipedia.org/wiki/%E8%B4%B9%E8%8C%A8%E6%B3%95%E5%88%99)
+
+该法则指出，移动到目标区域所需的时间是到目标的距离除以目标宽度的函数。
+
+<img width="300px" alt="Diagram: Fitts Law" src="./images/Fitts_Law.svg" />
+
+*(图片来源：By Foobar628 at English Wikipedia, Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/Fitts%27s_law#/media/File:Fitts_Law.svg)*
+
+费茨法则决定了在设计 UX 或 UI 时，交互元素应该尽可能大，而用户注意力区域和交互元素之间的距离应该尽可能小。这会对设计产生影响，例如将相近的任务进行归类分组等。
+
+同时它还将“魔角 (Magic Corners)”这一概念正式化，即在角落放置关键的 UI 元素，从而使得用户可以通过移动鼠标轻松点击到。Windows 的开始按钮便位于魔角处便于选择，而有趣的是 MacOS 恰恰相反，它的“关闭窗口”按钮 _不处于_ 魔角处，从而能有效减小被误点击的概率。
+
+参见：
+
+- [The information capacity of the human motor system in controlling the amplitude of movement.](https://www.semanticscholar.org/paper/The-information-capacity-of-the-human-motor-system-Fitts/634c9fde5f1c411e4487658ac738dcf18d98ea8d)
 
 ### 盖尔定律 (Gall's Law)
 
@@ -217,6 +288,30 @@ _(图片来源: By Daniels220 at English Wikipedia, Creative Commons Attribution
 > _罗伯特·汉隆 (Robert J. Hanlon)_
 
 这一原则表明，一个行为所产生的消极结果并不是恶意。相反，消极结果更有可能归咎于这些没有得到充分理解的行动或影响。
+
+### 席克定律 (Hick's Law or Hick-Hyman Law)
+
+- [英文维基百科](https://en.wikipedia.org/wiki/Hick%27s_law)
+
+> 决策时间和可供选择的选项数量呈对数增长关系。
+>
+> _William Edmund Hick and Ray Hyman_
+
+在下方的等式中，`T` 是做出决定所花费的时间，`n` 是选项的数量，`b` 是一个由数据分析所确定的常数。
+
+![席克定律](./images/hicks_law.svg)
+
+*(图片参考：Creative Commons Attribution-Share Alike 3.0 Unported, https://en.wikipedia.org/wiki/Hick%27s_law)*
+
+该定律仅适用于选项 _按顺序排列_ 的情况，例如 ABCD。这隐含在一二为底的对数中，也就是说决策者本质上在进行 _二分法查找_。实验表明，如果选项不是按顺序排列的，那么所花费时间与选项个数将会呈线性增长关系。
+
+这在 UI 设计中，该定律也可以有效地确保用户在搜索选项时更轻松愉快地做出决策。
+
+在 [Speed of Information Processing: Developmental Change and Links to Intelligence](https://www.sciencedirect.com/science/article/pii/S0022440599000369) 一文中可见，智商和反应时间之间的相关性也满足席克定律。
+
+参见：
+
+- [费茨法则 (Fitts's Law)](#费茨法则-fittss-law)
 
 ### 侯世达定律 (Hofstadter's Law)
 
@@ -296,6 +391,25 @@ _(图片来源: By Jeremykemp at English Wikipedia, CC BY-SA 3.0, https://common
 - [KISS 原则 (The KISS Principle)](#kiss-%e5%8e%9f%e5%88%99-the-kiss-principle)
 - [Unix 哲学 (The Unix Philosophy)](#unix-%e5%93%b2%e5%ad%a6-the-unix-philosophy)
 - [奥卡姆剃刀 (Occam's Razor)](#%e5%a5%a5%e5%8d%a1%e5%a7%86%e5%89%83%e5%88%80-occams-razor)
+
+### 林纳斯定律 (Linus's Law)
+
+- [英文维基百科](https://en.wikipedia.org/wiki/Linus%27s_law)
+- [中文维基百科](https://zh.wikipedia.org/wiki/%E6%9E%97%E7%BA%B3%E6%96%AF%E5%AE%9A%E5%BE%8B)
+
+> 足够多的眼睛，就可让所有问题浮现。
+>
+> _Eric S. Raymond_
+
+简单地说，能够看到问题的人越多，有人解决过相关的问题或事情的可能性就越高。
+
+最初该定律是用来描述开源模型对于项目的价值的，并适用于任意的软件项目。同时它也可以扩展到开发流程之中——更多的代码审查、更多的静态分析和多重测试可以让问题更加明显和容易识别。
+
+林纳斯定律的一个更正式的说法如下：
+
+> 如果有足够大的测试员和联合开发人员基础，那么几乎每个问题都能很快被特征化，从而让以前遇到过类似问题的人解决。
+
+这条定律最早出现在 Eric S. Raymond 所著书 "[The Cathedral and the Bazaar](https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar)" 中，并以 [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds) 的名字命名以作纪念。
 
 ### 梅特卡夫定律 (Metcalfe's Law)
 
@@ -431,6 +545,19 @@ _(图片来源: By Jeremykemp at English Wikipedia, CC BY-SA 3.0, https://common
 
 该定律有趣的一点是，即使简化整个系统，内在的复杂性也不会降低。它会**转移到用户**，并且用户必须以更复杂的方式行事。
 
+### 得墨忒耳定律 (The Law of Demeter)
+
+- [英文维基百科](https://en.wikipedia.org/wiki/Law_of_Demeter)
+- [中文维基百科](https://zh.wikipedia.org/wiki/%E5%BE%97%E5%A2%A8%E5%BF%92%E8%80%B3%E5%AE%9A%E5%BE%8B)
+
+> 别和陌生人讲话。
+
+得墨忒耳定律又称最少知识原则，是一条与面向对象语言有关的软件设计原则。
+
+该定律表明，软件的一个单元应该只与其直接合作者交谈。比如对象 `A` 引用了对象 `B`，对象 `B` 引用了对象 `C`，则 `A` 可以直接调用 `B` 的方法，但不应直接调用 `C` 的方法。所以如果 `C` 有一个 `dothing()` 的方法，`A` 不应该直接调用，而是使用 `B.getC().doThis()`。
+
+遵循这一定律可以限制代码更改的范围，使其以后更容易维护、更安全。
+
 ### 抽象泄漏定律 (The Law of Leaky Abstractions)
 
 - [英文在线地址](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
@@ -516,6 +643,28 @@ Spotify 模型还普及了部落、行会以及章节的概念，这些是组织
 ## 原则
 
 原则通常是与设计相关的准则。
+
+### 切斯特森围栏 (Chesterson's Fence)
+
+- [英文维基百科](https://en.wikipedia.org/wiki/Wikipedia:Chesterton%27s_fence)
+
+> 在了解现有情况背后的原因之前，不应该进行改进。
+
+该原则与软件工程中的消除技术负债 (Technical debt) 相关。程序的每一行最初都是出于某种原因编写的，因此根据切斯特森围栏原则，在更改或删除代码之前，即使看起来似乎是多余的或不正确的，也应该尝试完全理解代码的上下文和含义。
+
+该原则的名字来源于 [G.K. Chesterson](https://en.wikipedia.org/wiki/G._K._Chesterton) 的一则故事。一个男人横穿马路中央的栅栏，他向市长抱怨这道栅栏没有用还挡路，并要求拆除它。市长问他为什么要在那里建栅栏，那个人回答说不知道。市长接着说：“如果你不知道它的用途，我肯定不会让你把它拆了。你去查查它的用途，之后我可能会允许你拆掉它。”
+
+### 死海效应 (The Dead Sea Effect)
+
+- [Bruce F. Webster 的博客文章](http://brucefwebster.com/2008/04/11/the-wetware-crisis-the-dead-sea-effect/)
+
+> "... 那些更有才华，更有效率的 IT 工程师最有可能离开——消失 ... （而那些倾向于）留下来的“剩下的人”——是最没有才华和效率的 IT 工程师。"
+>
+> _Bruce F. Webster_
+
+死海效应表明，在任何一个组织中，工程师的技能、才华和效能往往与他们在公司的时间呈反比。
+
+通常情况下，技术好的工程师很容易在其他的地方找到工作，并且他们往往也会这样做。而技能过时或技术薄弱的工程师则会留在公司，因为其他地方很难找到工作。如果这些工程师在公司里获得了加薪，他们会更愿意留在公司，因为在其他地方找到同等薪酬的工作会很有挑战性。
 
 ### 呆伯特法则 (The Dilbert Principle)
 
@@ -773,8 +922,21 @@ KISS 原则指明了如果大多数的系统能够保持简单而非复杂化，
 - 《极限编程安装》[谷歌阅读地址](https://www.goodreads.com/en/book/show/67834) - 涵盖极限编程的核心原则。
 - 《人月神话》[谷歌阅读地址](https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month)、[豆瓣地址](https://book.douban.com/subject/26358448/) - 软件工程的经典书籍。这本书的中心主题就是[布鲁克斯法则](#%E5%B8%83%E9%B2%81%E5%85%8B%E6%96%AF%E6%B3%95%E5%88%99-brookss-law) 。
 - 《哥德尔、艾舍尔、巴赫：集异璧之大成》[谷歌阅读地址](https://www.goodreads.com/book/show/24113.G_del_Escher_Bach)、[豆瓣地址](https://book.douban.com/subject/1291204/) - 这本书很难分类。[侯世达定律](#%e4%be%af%e4%b8%96%e8%be%be%e5%ae%9a%e5%be%8b-hofstadters-law) 来自此书。
+- 《大教堂与市集》[英文维基百科](https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar) - 一本关于开源的文集，[林纳斯定律 (Linus's Law)](#林纳斯定律-linuss-law)源于此书。
 - 《呆伯特原则》[谷歌阅读地址](https://www.goodreads.com/book/show/85574.The_Dilbert_Principle) - 一本审视美国企业的漫画书，其作者创造了[呆伯特法则](#%e5%91%86%e4%bc%af%e7%89%b9%e6%b3%95%e5%88%99-the-dilbert-principle)。
 - 《彼得原理》[谷歌阅读地址](https://www.goodreads.com/book/show/890728.The_Peter_Principle) - 一本专注于大型组织和人员管理的挑战的漫画书，也是[彼得原理](#%e5%bd%bc%e5%be%97%e5%8e%9f%e7%90%86-the-peter-principle)的来源。
+- 《计算机程序的构造和解释》[谷歌阅读地址](https://www.goodreads.com/book/show/43713) - 如果你是 MIT 或剑桥大学的 CS、EE 学生，这是一本编程的入门书，并且被称为“人生的转折点”。
+
+## 在线资源
+
+一些有用的资源和阅读资料。
+
+- [CB Insights: 8 Laws Driving Success In Tech: Amazon's 2-Pizza Rule, The 80/20 Principle, & More](https://www.cbinsights.com/research/report/tech-laws-success-failure) - 这是以前有趣的文章，介绍了一些对技术上产生了很大影响的定律。
+
+## 相关项目
+
+- [Tip of the Day](https://tips.darekkay.com/html/hacker-laws-en.html) - Receive a daily hacker law/principle.
+- [Hacker Laws CLI](https://github.com/umutphp/hacker-laws-cli) - List, view and see random laws from the terminal!
 
 ## TODO
 
