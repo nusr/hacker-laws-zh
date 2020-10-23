@@ -330,13 +330,13 @@ CAP 定理由 Eric Brewer 所定义，它指出对于分布式数据存储来说
 
 - [阅读清单：《哥德尔、艾舍尔、巴赫：集异璧之大成》](#%E9%98%85%E8%AF%BB%E6%B8%85%E5%8D%95)
 
-### 哈伯特定律 (Hutber's Law)
+### 哈特伯定律 (Hutber's Law)
 
 - [英文维基百科](https://en.wikipedia.org/wiki/Hutber%27s_law)
 
 > 改善即恶化。
 >
-> [帕特里克·哈伯特](https://en.wikipedia.org/wiki/Patrick_Hutber) (Patrick Hutber)
+> [帕特里克·哈特伯](https://en.wikipedia.org/wiki/Patrick_Hutber) (Patrick Hutber)
 
 这个定律说明了对一个系统的改进会导致其他部分的恶化；或者它会将其他的恶化隐藏起来，并导致系统整体状态的退化。
 
