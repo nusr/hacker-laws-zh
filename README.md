@@ -913,7 +913,6 @@ KISS 原则指明了如果大多数的系统能够保持简单而非复杂化，
 参见:
 
 - [寻找分布式计算的谬误（第一部分） - Vaidehi Joshion Medium](https://medium.com/baseds/foraging-for-the-fallacies-of-distributed-computing-part-1-1b35c3b85b53)
-- [十年后，德意志 (Peter Deutsch) 的谬论](http://java.sys-con.com/node/38665)
 
 ## 阅读清单
 
