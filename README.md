@@ -20,6 +20,7 @@
   - [康威定律 (Conway's Law)](#康威定律-conways-law)
   - [坎宁汉姆定律 (Cunningham's Law)](#坎宁汉姆定律-cunninghams-law)
   - [邓巴数字 (Dunbar's Number)](#邓巴数字-dunbars-number)
+  - [邓宁-克鲁格效应 (The Dunning-Kruger Effect)](#邓宁-克鲁格效应-the-dunning-kruger-effect)
   - [费茨法则 (Fitts's Law)](#费茨法则-fittss-law)
   - [盖尔定律 (Gall's Law)](#盖尔定律-galls-law)
   - [古德哈特定律 (Goodhart's Law)](#古德哈特定律-goodharts-law)
@@ -48,10 +49,12 @@
   - [沃德勒定律 (Wadler's Law)](#沃德勒定律-wadlers-law)
   - [惠顿定律 (Wheaton's Law)](#惠顿定律-wheatons-law)
 - [原则](#原则)
+  - [乔治·伯克斯定律 (All Models Are Wrong or George Box's Law)](#乔治伯克斯定律-all-models-are-wrong-or-george-boxs-law)
   - [切斯特森围栏 (Chesterson's Fence)](#切斯特森围栏-chestersons-fence)
   - [死海效应 (The Dead Sea Effect)](#死海效应-the-dead-sea-effect)
   - [呆伯特法则 (The Dilbert Principle)](#呆伯特法则-the-dilbert-principle)
   - [帕累托法则 (The Pareto Principle or The 80/20 Rule)](#帕累托法则-the-pareto-principle-or-the-8020-rule)
+  - [舍基原理 (The Shirky Principle)](#舍基原理-the-shirky-principle)
   - [彼得原理 (The Peter Principle)](#彼得原理-the-peter-principle)
   - [鲁棒性原则 (The Robustness Principle or Postel's Law)](#鲁棒性原则-the-robustness-principle-or-postels-law)
   - [SOLID](#solid)
@@ -215,6 +218,25 @@ CAP 定理由 Eric Brewer 所定义，它指出对于分布式数据存储来说
 参见：
 
 - [康威定律](#%e5%ba%b7%e5%a8%81%e5%ae%9a%e5%be%8b-conways-law)
+
+### 邓宁-克鲁格效应 (The Dunning-Kruger Effect)
+
+- [英文维基百科](https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect)
+- [中文维基百科](https://zh.wikipedia.org/wiki/%E9%84%A7%E5%AF%A7-%E5%85%8B%E9%AD%AF%E6%A0%BC%E6%95%88%E6%87%89)
+
+> 无能的人往往不会意识到自己的无能。而得出正确答案所需要的技能，正是你认识到何为正确答案所需要的技能。
+>
+> ([大卫·邓宁 (David Dunning)](https://en.wikipedia.org/wiki/David_Dunning))
+
+邓宁-克鲁格效应是一种理论上的认知偏差，大卫·邓宁和贾斯汀·克鲁格在 1999 年的一项心理学研究和论文中对此进行了描述。研究表明，在一项任务中能力水平较低的人会更容易高估自己的能力。之所以会产生这种偏向，是因为一个人对问题或领域的复杂性有足够的*认识*时，才能够针对自己在该领域的工作能力提出明智的意见。
+
+邓宁-克鲁格效应也有另一个类似的，更显式的描述，即“一个人对某个领域的了解越少，他就越容易轻视这个领域的难度，从而更倾向于相信自己可以轻易地解决该领域的问题”。该效应与技术高度相关，具体表现为不太熟悉某个领域的个人(如非技术团队成员或经验较少的团队成员)会更有可能低估解决该领域问题所需的工作量。
+
+随着对某一领域的理解和经验的增长，人们很可能会遇到另一种效应-[虚幻的优越性 (Illusory superiority)](https://en.wikipedia.org/wiki/Illusory_superiority)，即特定领域内的丰富经验使得他们更容易高估他人的能力，或低估自己的能力。总而言之，这些影响都归咎于认知偏差。当意识到偏差存在时，我们可以尽量提出意见来消除这些偏差，这样往往可以避免异议。
+
+真实案例:
+
+* [苹果公司 vs 联邦调查局：为什么这个反恐鹰派改变了立场 (Apple vs. FBI: Why This Anti-Terror Hawk Switched Sides)](https://fortune.com/2016/03/10/apple-fbi-lindsay-graham/) - 2016 年，参议员林赛·格雷厄姆改变了他对苹果在设备加密中创建“后门”的立场。起初，格雷厄姆曾批评苹果公司反对创建“后门”，因为他认为这对调查潜在的恐怖计划是必要的。然而，随着他对这个领域的技术复杂性有了更多的了解，格雷厄姆意识到这比他原先想的要困难很多，并可能会产生严重的负面后果。这便是邓宁-克鲁格效应的真实案例--网络安全专家会更清楚如何利用这样的后门，因为他们对该领域有深刻的理解；而外行人士可能会简单地将设备安全类比于物理上的安全，执法时可以使用“万能钥匙”，但这显然与网络安全中的现代加密不可同日而语。
 
 ### 费茨法则 (Fitts's Law)
 
@@ -644,6 +666,23 @@ Spotify 模型还普及了部落、行会以及章节的概念，这些是组织
 
 原则通常是与设计相关的准则。
 
+### 乔治·伯克斯定律 (All Models Are Wrong or George Box's Law)
+
+- [英文维基百科](https://en.wikipedia.org/wiki/All_models_are_wrong)
+
+> All models are wrong, but some are useful.
+> 所有的模型都是错的，但有些是有用的。
+>
+> _乔治·伯克斯 (George Box)_
+
+这一原则表明，所有的系统模型都是有缺陷的，但只要它们没有太多缺陷，那便有可能是有用的。这一原则源于统计学，同时也适用于科学和计算模型。
+
+大多数软件的一个基本要求都是对某种特定系统进行建模。无论是计算机网络、资源库、社会关系图还是任何其他类型的系统，设计者都必须依据适当的细节程度来建模。过多的细节可能会导致太高的复杂度，过少的细节可能会使模型无法正常工作。
+
+参见:
+
+- [抽象泄漏定律 (The Law of Leaky Abstractions)](#抽象泄漏定律-the-law-of-leaky-abstractions)
+
 ### 切斯特森围栏 (Chesterson's Fence)
 
 - [英文维基百科](https://en.wikipedia.org/wiki/Wikipedia:Chesterton%27s_fence)
@@ -705,6 +744,26 @@ Spotify 模型还普及了部落、行会以及章节的概念，这些是组织
 
 - 微软 2002 年的报告表明，修复最常出现的 20％ 错误，将消除 Windows 和 Office 中 80％ 的
   错误和崩溃。[报告地址](https://www.crn.com/news/security/18821726/microsofts-ceo-80-20-rule-applies-to-bugs-not-just-features.htm)
+
+### 舍基原理 (The Shirky Principle)
+
+[舍基原理解释](https://kk.org/thetechnium/the-shirky-prin/)
+
+> Institutions will try to preserve the problem to which they are the solution.
+> 各机构会努力保留他们能够解决的问题。
+>
+> _克莱·舍基 (Clay Shirky)_
+
+舍基原理表明，复杂的解决方案——一家公司、一个行业或一项技术——可能会过于专注于他们正在解决的问题，以至于在无意中使问题本身变得永久化。这可能是有意为之（公司努力为问题找到新的细微差别，以证明继续开发解决方案是合理的），也可能是无意之举（不愿意接受和构建一个完全解决或避免问题的解决方案）。
+
+相关内容:
+
+- “当一个人不理解自己的工作就能够获得酬劳时，那么他就很难再去了解这份工作了！”——厄普顿·辛克莱
+- 《创新者的困境》克莱·克里斯滕森
+
+参见:
+
+- [帕累托法则 (The Pareto Principle or The 80/20 Rule)](#帕累托法则-the-pareto-principle-or-the-8020-rule)
 
 ### 彼得原理 (The Peter Principle)
 
@@ -913,7 +972,6 @@ KISS 原则指明了如果大多数的系统能够保持简单而非复杂化，
 参见:
 
 - [寻找分布式计算的谬误（第一部分） - Vaidehi Joshion Medium](https://medium.com/baseds/foraging-for-the-fallacies-of-distributed-computing-part-1-1b35c3b85b53)
-- [十年后，德意志 (Peter Deutsch) 的谬论](http://java.sys-con.com/node/38665)
 
 ## 阅读清单
 
@@ -937,6 +995,7 @@ KISS 原则指明了如果大多数的系统能够保持简单而非复杂化，
 
 - [Tip of the Day](https://tips.darekkay.com/html/hacker-laws-en.html) - Receive a daily hacker law/principle.
 - [Hacker Laws CLI](https://github.com/umutphp/hacker-laws-cli) - List, view and see random laws from the terminal!
+- [Hacker Laws Action](https://github.com/marketplace/actions/hacker-laws-action) - Adds a random Hacker Law to a pull request as a small gift for the contributor, thanks [Umut Işık](https://github.com/umutphp)
 
 ## TODO
 
