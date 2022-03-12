@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/nusr/hacker-laws-zh.svg?branch=master)](https://travis-ci.org/nusr/hacker-laws-zh)
 
-[hacker-laws](https://github.com/dwmkerr/hacker-laws) 的的中文翻译。
+[hacker-laws](https://github.com/dwmkerr/hacker-laws) 的中文翻译。
 
 对开发人员有用的定律、理论、原则和模式。(Laws, Theories, Principles and Patterns that developers will find useful.)
 
