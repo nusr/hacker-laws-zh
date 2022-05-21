@@ -393,7 +393,7 @@ _(图片来源: By Jeremykemp at English Wikipedia, CC BY-SA 3.0, https://common
 
 参见：
 
-- [抽象泄漏定律](#%E6%BC%8F%E6%B4%9E%E6%8A%BD%E8%B1%A1%E5%AE%9A%E5%BE%8B-the-law-of-leaky-abstractions)
+- [抽象泄漏定律](#%E6%8A%BD%E8%B1%A1%E6%B3%84%E6%BC%8F%E5%AE%9A%E5%BE%8B-the-law-of-leaky-abstractions)
 - [XKCD 1172](https://xkcd.com/1172/)
 
 ### 柯林汉定律 (Kernighan's Law)
@@ -598,7 +598,7 @@ _(图片来源: By Jeremykemp at English Wikipedia, CC BY-SA 3.0, https://common
 
 参见：
 
-- [隐式接口定律](#%E9%9A%90%E5%BC%8F%E6%8E%A5%E5%8F%A3%E5%AE%9A%E5%BE%8B-hyrums-law)
+- [隐式接口定律](#%E9%9A%90%E5%BC%8F%E6%8E%A5%E5%8F%A3%E5%AE%9A%E5%BE%8B-hyrums-law-or-the-law-of-implicit-interfaces)
 
 真实的例子：
 
